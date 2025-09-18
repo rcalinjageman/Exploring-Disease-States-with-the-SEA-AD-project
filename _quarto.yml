@@ -1,0 +1,41 @@
+project:
+  title: "Defining Disease: Exploring Single-Cell Gene Expression Associated with Alzheimer’s Disease"
+  type: website
+  output-dir: pdfs
+website:
+  title: "Defining Disease: Exploring Single-Cell Gene Expression Associated with Alzheimer’s Disease"
+  navbar:
+    search: true
+    right:
+    - text: Home
+      href: index.qmd
+    - text: News
+      href: news.qmd
+    - text: License
+      href: LICENSE-CC-BY-NC-4.0.qmd
+    - icon: github
+      href: https://github.com/rcalinjageman/Exploring-Disease-States-with-the-SEA-AD-project
+  sidebar:
+    style: docked
+    contents:
+    - text: Overview
+      href: overview.qmd
+    - text: Pre-lab activity
+      href: pre-lab.qmd
+    - text: Lab
+      href: lab.qmd
+    - text: Extensions
+      href: extensions.qmd
+    - text: Assessment
+      href: assessment.qmd
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    css: include/webex.css
+    include-after-body: include/webex.js
+  pdf:
+    documentclass: article
+    geometry: margin=1in
+editor: visual

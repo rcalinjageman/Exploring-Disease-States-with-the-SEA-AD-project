@@ -1,0 +1,35 @@
+---
+title: "Going Further: Optional Further Directions"
+---
+
+If you enjoyed this lab, you might be excited to know that **Cell×Gene Explorer** and the **SEA-AD dataset** are powerful, open-source tools. They are not limited to the questions we worked through here! You can use them to investigate your own hypotheses, just like researchers do.
+
+Below is a suggested structure you could use if you wanted to design an independent exploration:
+
+**1. The Research Question\
+**Clearly state what you are curious about.\
+Example: “I wanted to know the genes that differ most based on post-mortem interval (the time between death and harvesting of the brain samples).”
+
+**2. Approach (Conceptual, not technical)\
+**Briefly describe how you designed your comparison groups and what analysis you ran—focus on the idea, not the button-clicks.\
+Example: “I defined two populations of microglia: those from donors with short post-mortem intervals and those with long post-mortem intervals. I then compared gene expression between these groups, focusing on the number and types of differentially expressed genes.”
+
+**3. Figures\
+**Include one or two clear, labeled figures to support your findings.\
+Example: A figure showing expression of the top up-regulated gene and one showing the top down-regulated gene between the two groups.
+
+**4. Conclusion\
+**Summarize what you learned in a short paragraph.\
+Example: “Post-mortem interval strongly influenced microglial expression of genes related to stress responses, suggesting that this factor should be carefully controlled for in Alzheimer’s research.”
+
+**Example Research Questions You Could Explore**
+
+-   **Generalizability (to other brain regions):** Do the AD-associated genes we saw in MTG microglia also show up in DLPFC microglia? (Compare AD vs. normal in the DLPFC dataset and see if your top genes overlap with the MTG results.)
+
+-   **APOE4 risk allele:** APOE4 is a genetic allele associated with a high risk for Alzheimer’s disease. In MTG microglia, what genes differ most between APOE4 carriers and non-carriers? (Define groups by APOE4 status and analyze expression changes.)
+
+-   **Sex differences:** Are the AD-associated gene lists similar in male vs. female donors? (Repeat the AD vs. normal analysis separately in each sex and compare.)
+
+-   **Sociodemographic influences:** In normal donors, are there genes associated with years of education? (Select “normal” only, then compare low vs. high education groups.)
+
+These questions are just examples. You are encouraged to come up with your own if something in the dataset sparks your curiosity!

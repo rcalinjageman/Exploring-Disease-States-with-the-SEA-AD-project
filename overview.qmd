@@ -1,0 +1,60 @@
+---
+title: "Overview"
+bibliography: references.bib
+---
+
+In many cases, neuroscientists have been able to fully-characterize disease states.  For example, we now know that some forms of dementia are actually Neurosyphilis, a disease caused by a CNS infection of the bacteria [Treponema pallidum](https://en.wikipedia.org/wiki/Treponema_pallidum).  Having this understanding of the etiology (underlying cause) allows us to accurately identify a cause for a disease and to develop therapies for treatments.
+
+Unfortunately, many mental illnesses and neurological diseases remain mysterious – we can observe the symptoms but still don’t have a full understanding of the etiology.  This currently includes disorders like schizophrenia, bipolar disorder, and Alzheimer’s disease.  That is, while we can clearly see the impacts of these disorders, we can’t yet fully define what these diseases are.
+
+One-way scientists are trying to define diseases is by identifying their “molecular signature” – perhaps we can understand Alzheimer’s if we can define what changes, at the molecular level, happen within individual cell types of the CNS as Alzheimer’s disease progresses.  One level of molecular change that has become relatively easy to characterize is transcription – we now have technologies that can measure the expression level of thousands of genes in individual cells.  By assembling large libraries of cell expression levels in healthy and affected donors, we hope to finally be able to define what Alzheimer’s disease is.
+
+This is tricky, though.  First, in humans we do not experimentally manipulate Alzheimer’s disease (we do not randomly assign some humans to have the disease), so our studies are correlational, and thus often plagued by confounds that can create alternative explanations.  Second, processing tissue from human donors is difficult – gene expression continues to change in the nervous system after a patient dies, and so there are complex technical and ethical issues to deal with to minimize the impact of mortality on measures of gene expression.  Another difficulty is that transcription is what we can easily measure – but Alzheimer’s disease might not be a problem of gene expression. It could ultimately be a change in post-transcriptional processing, protein conformation due to misfolding or post translational modification (i.e. phosphorylation), etc.  That is, just because we can measure transcription does not mean it will be informative for defining Alzheimer’s.
+
+In this lab we are going to explore an incredible undertaking to understand Alzheimer’s that measures gene expression in single cells of human donors.  This project is called the Seattle Alzheimer’s Disease Brain Cell Atlas (SEA-AD for short).  The project was completed by a large consortium of researchers that includes the [Allen Institute for Brain Science](https://portal.brain-map.org/explore/seattle-alzheimers-disease/whatis), [University of Washington BioRepository and Integrated Neuropathology (BRaIN) laboratory and Precision Neuropathology Core](https://dlmp.uw.edu/research-labs/keene/BRaIN-lab), [UW Alzheimer's Disease Research Center](https://depts.washington.edu/mbwc/adrc), and the [Adult Changes in Thought Study](https://actagingresearch.org/) as reported in Nature Neuroscience [@gabitto2024].  
+
+The SEA-AD project has generated many terabytes of data measuring gene expression of over 2 million individual neurons in human donors.  All of the data for this project is available online, including a beautiful online atlas that lets anyone explore the dataset and ask their own research questions.
+
+In this lab, you are going to learn how to explore the SEA-AD dataset, how to interpret complex gene expression data, and how to find and interpret gene expression differences correlated with Alzheimer’s disease state.
+
+Looking at gene expression across all cells in the CNS would be too overwhelming for this lab - just take a look at the paper by [Gabitto et al., 2024](https://www.nature.com/articles/s41593-024-01774-5) to get a sense of how overwhelming.
+
+Instead, we are going to focus on microglia.  Microglia are the brain's resident immune cells, and are increasingly recognized for their significant role in Alzheimer's disease (AD) pathogenesis, both as contributors to neuroinflammation and potential therapeutic targets. While initially considered a consequence of AD pathology, recent research suggests that microglial reactivity can be an early, upstream event in the disease process [@mrdjen2025; @thapa2025].
+
+**DataSet: Microglia-PVM - MTG: Seattle Alzheimer's Disease Atlas (SEA-AD) and Microglia-PVM- DLPFC**
+
+Below are direct links to the open datasets we’ll be working with in this lab. Take some time to click through and explore—they’re yours to investigate!
+
+-   MTG: <https://cellxgene.cziscience.com/e/c76098ba-eed3-45b1-98f2-96fcac55ed18.cxg/>
+
+-   DLPFC: <https://cellxgene.cziscience.com/e/100c6145-7b0e-4ba6-81c1-ffebed0d1ac4.cxg/> 
+
+**Learning Objectives:**
+
+Content:
+
+1.  Explain the principles of RNA-seq, including how transcriptomic data is generated and what it represents at the single-cell level.
+
+2.  Describe the role of neuroinflammation in Alzheimer’s Disease. 
+
+3.  Describe how RNA-seq data is used to identify and classify cell types, especially in the context of neurodegenerative disease like Alzheimer’s.
+
+4.  Interpret the purpose and function of UMAP (Uniform Manifold Approximation and Projection) as a dimensionality reduction tool for transcriptomic data.
+
+Skills:
+
+1.  Use the Cell×Gene explorer to navigate and interact with SEA-AD single-cell RNA-seq datasets.
+
+2.  Perform qualitative comparisons of gene expression levels across cell types and/or brain regions using UMAP plots.
+
+3.  Filter cells within Cell×Gene explorer based on gene expression, biomarker presence, and demographic variables (e.g., age, sex, pathology score).
+
+4.  Identify differentially expressed genes by comparing groups of interest (e.g., disease state or sex).
+
+5.  Create a qualitative figure that demonstrates changes in gene expression across a group of interest.
+
+6.  Interpret the biological function of a gene by using external tools such as the NIH Gene database (GeneCards, NCBI Gene, etc.).
+
+7.  Communicate transcriptomic findings through figures (e.g., UMAPs) and summaries that integrate data interpretation with background literature.
+
+## 
