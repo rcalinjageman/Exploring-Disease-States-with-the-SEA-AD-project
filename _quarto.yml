@@ -1,7 +1,7 @@
 project:
   title: "Defining Disease: Exploring Single-Cell Gene Expression Associated with Alzheimer’s Disease"
   type: website
-  output-dir: pdfs
+  output-dir: docs
 website:
   title: "Defining Disease: Exploring Single-Cell Gene Expression Associated with Alzheimer’s Disease"
   navbar:
