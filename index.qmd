@@ -12,6 +12,8 @@ Here you will find a complete set of lab materials you can adapt for your own co
 
 -   The github repository for this project provides these resources in Markdown format, available for you to remix and update: <https://github.com/rcalinjageman/Exploring-Disease-States-with-the-SEA-AD-project>
 
--   We will also post a set of Canvas import files you can use to import into your university's LMS
+-   For use with an LMS:
 
-Enjoy, and if you use these resources, please cite their source!
+    -   [This zip file](blob:https://github.com/fd2cb6fb-1803-4775-885f-7b25f1a7ed04) is a Canvas export in Common Cartridge Formate. It should enable you to import the pre-lab and lab activity, each as a stand-alone, self-paced online activity that you can customize. Enjoy, and if you use these resources, please cite their source!
+
+    -   We have also prepped a word file for the pre-lab and another for the lab in Respondus 4.1 format, suitable for importing into the Respondus Test-Bank Manager. You can find this files here: <https://github.com/rcalinjageman/Exploring-Disease-States-with-the-SEA-AD-project/tree/main/respondus>
