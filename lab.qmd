@@ -131,27 +131,35 @@ Let’s get started!
 
 1.  Define the set of microglia from normal donors.
 
+In the “Supertype” roll down, uncheck all of the microglia supertypes, except for Micro-PVM_3_SEAAD.  Micro-PVM3 is a disease-associated type of microglia, previously shown to undergo gene expression changes in AD (Gabitto et. al., 2024).
+
+![](images/figure_lab_07a.png)
+
 In the disease roll down, uncheck the dementia box and check the **normal box** so that only microglia from the normal donors are selected.  This should provide 20,124 cells.
 
 ![](images/figure_lab_07.png){#fig-lab-07}
 
 ![](images/figure_lab_08.png){#fig-lab-08}
 
-Now, click the Population 1 button (the left “0 cells” button) – this tells the Cell×Gene explorer that this set of cells is the first set that you want to use to compare gene expression.  You’ll see that it tells you that you’ve selected 20,124 cells for this group.
+Now, click the Population 1 button (the left “0 cells” button) – this tells the Cell×Gene explorer that this set of cells is the first set that you want to use to compare gene expression.  You’ll see that it tells you that you’ve selected 1,900 cells for this group (Normal, Micro-PVM_3).
 
-![](images/figure_lab_09.png){#fig-lab-09}
+![](images/figure_lab_09.png){#fig-lab-09 width="638"}
 
-![](images/figure_lab_10.png){#fig-lab-10}
+![](images/figure_lab_10.png){#fig-lab-10 width="646"}
 
 2.  Define the set of microglia from the AD donors
 
-In the disease roll down, you’ll now check the **dementia box** (that’s the donors with Alzheimer’s) and uncheck the normal box.  You’ll now have 19,876 microglia selected.
+In the disease roll down, you’ll now check the **dementia box** (that’s the donors with Alzheimer’s) and uncheck the normal box. 
 
-![](images/figure_lab_11.png){#fig-lab-11}
+![](images/figure_lab_11.png){#fig-lab-11 width="448"}
 
-Now click the Population 2 button (be careful not to re-click the Population 1 button).  This should lock in the 19,876 microglia from the Alzheimer’s donors for comparison, and it will make the comparison button turn blue. You can now ask the Cell×Gene explorer to compare gene expression across these two sets of microglia.
+![](images/figure_lab_11b.png){width="304"}
 
-![](images/figure_lab_12.png){#fig-lab-12}
+Now click the Population 2 button (be careful not to re-click the Population 1 button).  This should lock in the 3,207 PVM-3 microglia from the Alzheimer’s donors for comparison, and it will make the comparison button turn blue. You can now ask the Cell×Gene explorer to compare gene expression across these two sets of microglia.
+
+![](images/figure_lab_12.png){#fig-lab-12 width="677"}
+
+![](images/figure_lab_12b.png){width="678"}
 
 3.  Conduct the differential gene expression analysis:
 
@@ -159,7 +167,9 @@ Click the blue **Gene Expression Comparison** button. The Cell×Gene explorer wi
 
 Be aware – sometimes the tool crashes here, so you may need to restart if that happens.
 
-![](images/figure_lab_13.png){#fig-lab-13}
+![](images/figure_lab_13.png){#fig-lab-13 width="587"}
+
+![](images/figure_lab_13b.png){width="487"}
 
 If all goes well, you’ll see two gene lists appear on the right side:\
 **Pop 1 high:** Since Population 1 is the cells from healthy donors, this list shows genes with higher expression in normal microglia compared to Alzheimer’s microglia.\
@@ -171,7 +181,7 @@ For the **Pop 1 high** list, click the three-dot menu (**…**) and select **“
 
 Remember, this list contains genes that are higher in microglia from healthy donors – but it’s often easier to think of them as being **lower in Alzheimer’s microglia.**
 
-![](images/figure_lab_14.png){#fig-lab-14}
+![](images/figure_lab_14.png){#fig-lab-14 width="510"}
 
 ![](images/figure_lab_15.png){#fig-lab-15}
 
@@ -183,7 +193,7 @@ Now, rename the **Pop 2 high** list. Click the three-dot menu (**…**) for that
 
 You should now have something like this on your screen:
 
-![](images/figure_lab_18.png){#fig-lab-18}
+![](images/figure_lab_18.png){#fig-lab-18 width="750"}
 
 **What is happening when you push that button? Let’s talk about Stats!**
 
@@ -193,9 +203,9 @@ We call this extensive data-profiling a **screen** – it means we can rapidly c
 
 Thus, while a differential gene analysis is a great tool, it’s important to know that this method is useful for preliminary investigations and identifying potential markers. It’s recommended to follow up with more robust methods for formal analysis and most especially to test for the same patterns in **independent samples** to see if they hold up. While the Welch’s t-test is relatively fast and efficient, it may not be as accurate as other, more computationally intensive statistical tests when dealing with single-cell RNA sequencing data (e.g. [Ritchie et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25605792/)).
 
-### Explore the Most Up-Regulated Gene, MT-ND3
+### Explore PTPRG, one of the up-regulated genes highlighted by the SEA-AD authors
 
-Let’s start with the genes up-regulated in microglia from Alzheimer’s donors:
+Let’s start with the genes up-regulated in microglia from Alzheimer’s donors. Specifically, we are going to focus in on PTPRG, one of the genes that the SEA-AD scientists highighted in their paper after doing an analysis very similar to what you just accomplished.
 
 -   Expand the “Higher in Alzheimer's Microglia” list
 
@@ -203,7 +213,7 @@ Let’s start with the genes up-regulated in microglia from Alzheimer’s donors
 
 <!-- -->
 
--   The first gene listed is MT-ND3.  Use the eye-drop tool to color-code the UMAP for MT-ND3 expression.  Also, expand this gene to see its overall expression histogram.
+-   The first gene listed is PTPRG.  Use the eye-drop tool to color-code the UMAP for MT-ND3 expression.  Also, expand this gene to see its overall expression histogram.
 
 -   Explore the expression profile for MT-ND3.  Look at its overall expression histogram.  Think about it: What is this histogram telling you? Do all cells express this gene?
 
@@ -223,7 +233,7 @@ Let’s start with the genes up-regulated in microglia from Alzheimer’s donors
 
 **Q.10 Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be part of Figure 2.**  Your figure should end up looking something like this:
 
-![](images/figure_lab_22.png){#fig-lab-22}
+![](images/figure_lab_22.png){#fig-lab-22 width="657"}
 
 Think about it!
 
@@ -233,23 +243,17 @@ Think about it!
 
 -   What, exactly, do mitochondria do?
 
-**Q11: Write, in your own words, about the difference in expression you are seeing for MT-ND3 based on your created Figure 1.  Would you call this a dramatic change in expression or a subtle change in expression?  Does it seem like most microglia have higher expression in AD or just some?**
+**Q11: Write, in your own words, about the difference in expression you are seeing for PTPRG based on your created Figure 1.  Would you call this a dramatic change in expression or a subtle change in expression?  Does it seem like most microglia have higher expression in AD or just some?**
 
-### Explore More of the Up-Regulated Genes
+### Explore Other Up-Regulated Genes
 
-Keep exploring the up-regulated list.  Go on to the 2nd and 3rd most up-regulated (MT-ATP6) and create another figure comparing gene expression differences between normal and AD.
-
-**Q12: Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be the 2nd part of Figure 2 comparing the top two up-regulated genes (MT-ND3 and MT-ATP6)**  
-
-Now, look at the remaining genes on the list. Think about it: Do you notice some commonality in the functions of these genes? What happens to the degree of difference as you work through the list?  Do the differences get more noticeable or less?  Why?  How far down the list before you don’t really feel confident about a difference? 
+Keep exploring the up-regulated list.  Go on to the 1st and 2nd most up-regulated (MT-ND3, MT-ATP6) and create another figure comparing gene expression differences between normal and AD. What happens to the degree of difference as you work through the list?  Do the differences get more noticeable or less?  Why?  How far down the list before you don’t really feel confident about a difference? 
 
 **Q13: Based on your inspection of the list, write a short overall summary in your own words.  Try to express yourself clearly and succinctly (briefly) and without jargon. Your paragraph should help another reader understand:**
 
 -   **What is the association between AD and gene expression in MTG microglia?**
 
 -   **Are there widespread differences or are they more subtle?**
-
--   **Are there consistencies in the types of genes related to AD?**
 
 **Q14: So we will have it for later, write down the top 10 up-regulated genes.  This would work best in a spreadsheet (Excel or Google Sheets).  Be sure to label what your list is.**  
 
@@ -279,11 +283,11 @@ Now explore the down-regulated genes:
 
 1.  **Figure 1: A figure comparing APOE expression in the microglia from normal and AD donors (Q8)**
 
-2.  **Figure 2: A multipanel figure comparing the top two up-regulated genes (MT-ND3 and MT-ATP6) between normal and AD donors (Q10, Q12)**
+2.  **Figure 2: A figure comparing the PTPRG between normal and AD donors (Q10, Q12)**
 
 3.  **A short paragraph summarizing your analysis of the up-regulated genes (Q11, Q13)**
 
-4.  **A multipanel figure comparing the top two down-regulated genes (LINC02712 and 3X3CR1) between normal and AD donors (Q15)**
+4.  **A multipanel figure comparing the top two down-regulated genes (P2RY12 and CX3CR1) between normal and AD donors (Q15)**
 
 5.  **A short paragraph summarizing your analysis of the down-regulated genes (Q16)**
 
@@ -297,17 +301,15 @@ For example, in the control group, there are 5 female and 4 male donors (55% fem
 
 We can check this worry – we can look at if our top genes that differ by AD seem to differ by sex as well.
 
-**Examine if expression of MT-ND3 differs in the microglia of control males and females:**
+**Examine if expression of PTPRG differs in the microglia of control males and females:**
 
 -   In the disease drop down, check normal only
 
--   Color code by MT-ND3
+-   Color code by PTPRG
 
--   Then in the sex drop-down, check males only and then females only, again screen shotting each group on their own and making a figure for side-by-side comparison.
+-   Then in the sex drop-down, check males only and then females only, again screen shot-ing each group on their own and making a figure for side-by-side comparison.
 
-**Q18: Within these normal donors, does it look like females express more MT-ND3 in their microglia? Could this be a confound? Does this complicate our interpretation that MT-ND3 is increased in AD?  How?**
-
-By the way: The SEA-AD researchers were aware of this issue, and in the paper they published they took additional steps to try to control for the imbalance of genders -- science is hard!)
+**Q18: Within these normal donors, does it look like females express more PTPRG in their microglia? Why is the fact that this seems so similar good news?**
 
 ### Wrapping up: Some things to think about
 
