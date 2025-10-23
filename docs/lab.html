@@ -310,9 +310,6 @@ Figure&nbsp;4
 </figcaption>
 </figure>
 </div></li>
-</ol>
-<!-- -->
-<ol start="3" type="1">
 <li><p>Next, investigate whether <strong>APOE</strong> expression differs in microglia from Alzheimer’s donors compared to healthy donors. Expand the <strong>disease</strong> category to reveal histograms for each group. Do the histograms look noticeably different?</p>
 <div id="fig-lab-05" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -324,10 +321,7 @@ Figure&nbsp;5
 </figcaption>
 </figure>
 </div></li>
-</ol>
-<!-- -->
-<ol start="4" type="1">
-<li>Use the check and uncheck buttons to toggle <strong>APOE</strong> expression visualization for each group individually. Each time you switch groups, be sure to move your mouse pointer back to the UMAP to avoid unintended highlighting of other cells.</li>
+<li><p>Use the check and uncheck buttons to toggle <strong>APOE</strong> expression visualization for each group individually. Each time you switch groups, be sure to move your mouse pointer back to the UMAP to avoid unintended highlighting of other cells.</p></li>
 </ol>
 <p><strong>Q7: Based on what you see, do the expression patterns appear different between the two groups? Do these histograms seem very different to you?</strong></p>
 <p><strong>Q8: Create a figure comparing the two UMAPs of normal versus AD donors. The figure should look something like what you see below. This will be Figure 1</strong></p>
@@ -510,9 +504,9 @@ Figure&nbsp;18
 <p>We call this extensive data-profiling a <strong>screen</strong> – it means we can rapidly check for lots of possibilities to “screen” for interesting genes.&nbsp; This is a great way to discover new and unexpected things.&nbsp; It’s also an “unbiased” technique because we test *every* gene, not just the ones we already think might be important.&nbsp; The drawback, though, is that when we screen, we radically increase our risk of over-fitting – finding patterns that might have been true in this sample but which might not really generalize to all Alzheimer’s patients.&nbsp; In the full SEA-AD project, the authors took steps to avoid this issue (like checking other data sets and with other methods)</p>
 <p>Thus, while a differential gene analysis is a great tool, it’s important to know that this method is useful for preliminary investigations and identifying potential markers. It’s recommended to follow up with more robust methods for formal analysis and most especially to test for the same patterns in <strong>independent samples</strong> to see if they hold up. While the Welch’s t-test is relatively fast and efficient, it may not be as accurate as other, more computationally intensive statistical tests when dealing with single-cell RNA sequencing data (e.g.&nbsp;<a href="https://pubmed.ncbi.nlm.nih.gov/25605792/">Ritchie et al., 2015</a>).</p>
 </section>
-<section id="explore-ptprg-one-of-the-up-regulated-genes-highlighted-by-the-sea-ad-authors" class="level3">
-<h3 class="anchored" data-anchor-id="explore-ptprg-one-of-the-up-regulated-genes-highlighted-by-the-sea-ad-authors">Explore PTPRG, one of the up-regulated genes highlighted by the SEA-AD authors</h3>
-<p>Let’s start with the genes up-regulated in microglia from Alzheimer’s donors. Specifically, we are going to focus in on PTPRG, one of the genes that the SEA-AD scientists highighted in their paper after doing an analysis very similar to what you just accomplished.</p>
+<section id="explore-the-most-up-regulated-gene-mt-nd3" class="level3">
+<h3 class="anchored" data-anchor-id="explore-the-most-up-regulated-gene-mt-nd3">Explore the Most Up-Regulated Gene, MT-ND3</h3>
+<p>Let’s start with the genes up-regulated in microglia from Alzheimer’s donors:</p>
 <ul>
 <li><p>Expand the “Higher in Alzheimer’s Microglia” list</p>
 <div id="fig-lab-19" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -525,10 +519,7 @@ Figure&nbsp;19
 </figcaption>
 </figure>
 </div></li>
-</ul>
-<!-- -->
-<ul>
-<li><p>The first gene listed is PTPRG.&nbsp; Use the eye-drop tool to color-code the UMAP for MT-ND3 expression.&nbsp; Also, expand this gene to see its overall expression histogram.</p></li>
+<li><p>The first gene listed is MT-ND3.&nbsp; Use the eye-drop tool to color-code the UMAP for MT-ND3 expression.&nbsp; Also, expand this gene to see its overall expression histogram.</p></li>
 <li><p>Explore the expression profile for MT-ND3.&nbsp; Look at its overall expression histogram.&nbsp; Think about it: What is this histogram telling you? Do all cells express this gene?</p>
 <div id="fig-lab-20" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -540,9 +531,6 @@ Figure&nbsp;20
 </figcaption>
 </figure>
 </div></li>
-</ul>
-<!-- -->
-<ul>
 <li><p>Compare expression between microglia from normal and AD donors:</p>
 <div id="fig-lab-21" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -553,18 +541,17 @@ Figure&nbsp;20
 Figure&nbsp;21
 </figcaption>
 </figure>
-</div></li>
-</ul>
-<!-- -->
+</div>
 <ul>
 <li><p>Roll down the <strong>disease</strong> filter.&nbsp; Compare the by-group histograms.&nbsp; Think about it: Do they seem that different?</p></li>
 <li><p>Isolate down to AD (dementia) or normal microglia, screen shot each, and line them up to compare.&nbsp;</p></li>
+</ul></li>
 </ul>
-<p><strong>Q.10 Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be part of Figure 2.</strong>&nbsp; Your figure should end up looking something like this:</p>
-<div id="fig-lab-22" class="quarto-float quarto-figure quarto-figure-center anchored" width="657">
+<p><strong>Q10 Make a figure comparing expression of MT-ND3 in the PVM_3 Microglia of Normal and Dementia Donors. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be your Figure 2.</strong>&nbsp; Your figure should end up looking something like this:</p>
+<div id="fig-lab-22" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-lab-22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/figure_lab_22.png" id="fig-lab-22" class="img-fluid figure-img" width="657">
+<img src="images/figure_lab_22a.png" id="fig-lab-22" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-lab-22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;22
@@ -577,58 +564,68 @@ Figure&nbsp;22
 <li><p>What does this gene do?&nbsp; Use the (i) information button to find out more about it. Note: information is not always available for all genes. If no info is listed, look it up here: <a href="https://www.ncbi.nlm.nih.gov/gene/" class="uri">https://www.ncbi.nlm.nih.gov/gene/</a> or here <a href="https://www.genecards.org/" class="uri">https://www.genecards.org/</a></p></li>
 <li><p>What, exactly, do mitochondria do?</p></li>
 </ul>
-<p><strong>Q11: Write, in your own words, about the difference in expression you are seeing for PTPRG based on your created Figure 1.&nbsp; Would you call this a dramatic change in expression or a subtle change in expression?&nbsp; Does it seem like most microglia have higher expression in AD or just some?</strong></p>
+<p><strong>Q11: Write, in your own words, about the difference in expression you are seeing for MT-ND3 based on your Figure 2.&nbsp; Would you call this a dramatic change in expression or a subtle change in expression?&nbsp; Does it seem like most microglia have higher expression in AD or just some?</strong></p>
 </section>
-<section id="explore-other-up-regulated-genes" class="level3">
-<h3 class="anchored" data-anchor-id="explore-other-up-regulated-genes">Explore Other Up-Regulated Genes</h3>
-<p>Keep exploring the up-regulated list.&nbsp; Go on to the 1st and 2nd most up-regulated (MT-ND3, MT-ATP6) and create another figure comparing gene expression differences between normal and AD. What happens to the degree of difference as you work through the list?&nbsp; Do the differences get more noticeable or less?&nbsp; Why?&nbsp; How far down the list before you don’t really feel confident about a difference?&nbsp;</p>
-<p><strong>Q13: Based on your inspection of the list, write a short overall summary in your own words.&nbsp; Try to express yourself clearly and succinctly (briefly) and without jargon. Your paragraph should help another reader understand:</strong></p>
+<section id="explore-more-of-the-up-regulated-genes" class="level3">
+<h3 class="anchored" data-anchor-id="explore-more-of-the-up-regulated-genes">Explore More of the Up-Regulated Genes</h3>
+<p>Keep exploring the up-regulated list.&nbsp;</p>
+<ul>
+<li><p>What happens to the degree of difference as you work through the list?&nbsp; Do the differences get more noticeable or less?&nbsp; Why?&nbsp; How far down the list before you don’t really feel confident about a difference?&nbsp;</p></li>
+<li><p>Do you notice some commonality in the functions of these genes?</p></li>
+</ul>
+<p>Likely you are noticing a lot of mitochondrial genes! That sounds exciting, but unfortunately the SEA-AD researchers determined that this was likely due to a <strong>confound</strong> in how the tissue was processed. Ugh, science is hard! Don’t worry, though, <em>some</em> of the genes held up to the extra corrections the SEA-AD researchers took to weed out confounds. We’re about to meet one of them.</p>
+</section>
+<section id="explore-ptprg-one-of-the-up-regulated-genes-that-survived-corrections-for-possible-confound." class="level3">
+<h3 class="anchored" data-anchor-id="explore-ptprg-one-of-the-up-regulated-genes-that-survived-corrections-for-possible-confound.">Explore PTPRG, one of the up-regulated genes that survived corrections for possible confound.</h3>
+<p>While the mitochondrial genes on this list are probably <em>not</em> valid indicators of Alzheimer’s, one gene on this list was still shown to be differently expressed even after the SEA-AD researchers corrected for a variety of confounds and processing issues. That gene is PTPRG. You’ll find it in the 11th position on this list.</p>
+<ul>
+<li><p>Find PTPRG on the list of “Higher in Alzheimer’s Microglia” list. Use the eye-drop tool to color-code the UMAP for PTPRG expression.&nbsp; Also, expand this gene to see its overall expression histogram.</p></li>
+<li><p>Explore the expression profile for PTPRG.&nbsp; Look at its overall expression histogram.&nbsp; Think about it: What is this histogram telling you? Do all cells express this gene?</p>
+<p><img src="images/figure_lab_20.png" class="img-fluid"></p></li>
+<li><p>Compare expression between microglia from normal and AD donors:</p>
+<p><img src="images/figure_lab_21.png" class="img-fluid"></p></li>
+<li><p>Roll down the <strong>disease</strong> filter.&nbsp; Compare the by-group histograms.&nbsp; Think about it: Do they seem that different?</p></li>
+<li><p>Isolate down to AD (dementia) or normal microglia, screen shot each, and line them up to compare.&nbsp;</p></li>
+</ul>
+<p><strong>Q12 Make a figure comparing PTPRG expression in the PVM_3 Microglia of Normal and Dementia Donors. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will your Figure 3.</strong>&nbsp; Your figure should end up looking something like this:</p>
+<p><img src="images/figure_lab_22.png" class="img-fluid" width="657"></p>
+<p><strong>Q13: Write, in your own words, about the difference in expression you are seeing for PTPRG based on your created Figure 1.&nbsp; Would you call this a dramatic change in expression or a subtle change in expression?&nbsp; Does it seem like most microglia have higher expression in AD or just some?</strong></p>
+<p><strong>Q14: Now that you’ve explored some of the up-regulated genes, write a short overall summary in your own words about your conclusions. Try to express yourself clearly and succinctly (briefly) and without jargon. Your paragraph should help another reader understand:</strong></p>
 <ul>
 <li><p><strong>What is the association between AD and gene expression in MTG microglia?</strong></p></li>
 <li><p><strong>Are there widespread differences or are they more subtle?</strong></p></li>
+<li><p><strong>Knowing that the mitochondrial genes are probably artifacts, what does the PTRPG gene possibly suggest about the Alzheimer’s disease state in microglia?</strong></p></li>
 </ul>
-<p><strong>Q14: So we will have it for later, write down the top 10 up-regulated genes.&nbsp; This would work best in a spreadsheet (Excel or Google Sheets).&nbsp; Be sure to label what your list is.</strong> &nbsp;</p>
-<p>Note: The gene names are sometimes cut off in the Cell×Gene explorer, but if you hover over the name you’ll get the whole thing:</p>
-<div id="fig-lab-23" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-lab-23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/figure_lab_23.png" id="fig-lab-23" class="img-fluid figure-img">
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-lab-23-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;23
-</figcaption>
-</figure>
-</div>
 </section>
 <section id="explore-the-most-down-regulated-genes" class="level3">
 <h3 class="anchored" data-anchor-id="explore-the-most-down-regulated-genes">Explore the Most Down-Regulated Genes</h3>
 <p>Now explore the down-regulated genes:</p>
 <ul>
 <li><p>Browse through the list</p></li>
-<li><p>Make specific gene expression comparison figures (well labelled) for the <strong>top two down-regulated genes</strong></p></li>
+<li><p>Make specific gene expression comparison figures (well labelled) for the <strong>top two down-regulated genes</strong>. This will be your Figures 4 and 5.</p></li>
 <li><p>Work down the list to where you no longer feel very confident about the differences, though you don’t have to make figures past the first two genes</p></li>
 </ul>
-<p><strong>Q15: Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be the Figure 3 comparing the top two down-regulated genes</strong></p>
+<p><strong>Q15: Make figures comparing expression between normal and dementia donors, one figue for each of the two top down-regulated genes. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be Figures 4 (top down-regulated gene) and Figure 5 (2nd most down-regulated gene).</strong></p>
 <p><strong>Q16: Write up a short paragraph summarizing your exploration of the down-regulated genes</strong></p>
-<p><strong>Q17: So we’ll have it for later, also write down the names of the top 10 down-regulated genes.&nbsp; Write this down as an additional list in the spreadsheet where you wrote down the top 10 up-regulated genes.</strong></p>
 </section>
 <section id="your-lab-hand-in-so-far" class="level3">
 <h3 class="anchored" data-anchor-id="your-lab-hand-in-so-far">Your Lab Hand-In So Far</h3>
 <p><strong>You should now have:</strong></p>
 <ol type="1">
 <li><p><strong>Figure 1: A figure comparing APOE expression in the microglia from normal and AD donors (Q8)</strong></p></li>
-<li><p><strong>Figure 2: A figure comparing the PTPRG between normal and AD donors (Q10, Q12)</strong></p></li>
-<li><p><strong>A short paragraph summarizing your analysis of the up-regulated genes (Q11, Q13)</strong></p></li>
-<li><p><strong>A multipanel figure comparing the top two down-regulated genes (P2RY12 and CX3CR1) between normal and AD donors (Q15)</strong></p></li>
+<li><p><strong>Figure 2: A figure comparing the MT-ND3 between normal and AD donors (Q10)</strong></p></li>
+<li><p><strong>Figure 3: A figure comparing the PTPRG between normal and AD donors (Q12)</strong></p></li>
+<li><p><strong>Short intepretation paragraphs summarizing your conclusion about the up-regulated genes: MT-ND3, PTPRG, and overall (Q11, Q13, Q14)</strong></p></li>
+<li><p><strong>Figure 4: A figure comparing the most down-regulate gene between normal and dementia donors (P2RY12, Q15).</strong></p></li>
+<li><p><strong>Figure 5: A figure comparing the 2nd most down-regulated gene between normal and dementia donors (CX3CR1, A15).</strong></p></li>
 <li><p><strong>A short paragraph summarizing your analysis of the down-regulated genes (Q16)</strong></p></li>
-<li><p><strong>A spreadsheet with 2 labelled lists: the top 10 most up-regulated genes and the top 10 most down-regulated genes. (Q14, Q17)</strong></p></li>
 </ol>
 </section>
 <section id="thinking-critically-about-confounds" class="level3">
 <h3 class="anchored" data-anchor-id="thinking-critically-about-confounds">Thinking Critically About Confounds</h3>
 <p>This is a correlational study – donors were not assigned to have AD (thank goodness!).&nbsp; But that means we have to be especially worried about confounds – other ways in which these participants/cells might differ beyond AD status.&nbsp;&nbsp;</p>
 <p>For example, in the control group, there are 5 female and 4 male donors (55% female).&nbsp; But in the AD group there are 46 female&nbsp; and 29 male donors (61% female).&nbsp; That means that the AD group is not really the same as the control group – females are over-represented.&nbsp; And that means that what we think is an AD difference might actually just be a sex difference.&nbsp; Uh oh!&nbsp;&nbsp;</p>
-<p>We can check this worry – we can look at if our top genes that differ by AD seem to differ by sex as well.</p>
+<p>We can check this worry. Specifically, we can look at if the mitochonrdrial gene that <em>seemed</em> most up-regulated in Alzheimer’s might differ by sex as well.</p>
 <p><strong>Examine if expression of PTPRG differs in the microglia of control males and females:</strong></p>
 <ul>
 <li><p>In the disease drop down, check normal only</p></li>
@@ -664,416 +661,210 @@ Papeo, Liuba, Beatrice Agostini, and Angelika Lingnau. 2019. <span>“The Large-
 </div></section></div></main> <!-- /main -->
 <script>
 
-
-
 /* update total correct if #webex-total_correct exists */
-
 update_total_correct = function() {
-
   console.log("webex: update total_correct");
 
-
-
   var t = document.getElementsByClassName("webex-total_correct");
-
   for (var i = 0; i < t.length; i++) {
-
     p = t[i].parentElement;
-
     var correct = p.getElementsByClassName("webex-correct").length;
-
     var solvemes = p.getElementsByClassName("webex-solveme").length;
-
     var radiogroups = p.getElementsByClassName("webex-radiogroup").length;
-
     var selects = p.getElementsByClassName("webex-select").length;
 
-
-
     t[i].innerHTML = correct + " of " + (solvemes + radiogroups + selects) + " correct";
-
   }
-
 }
-
-
 
 /* webex-solution button toggling function */
-
 b_func = function() {
-
   console.log("webex: toggle hide");
 
-
-
   var cl = this.parentElement.classList;
-
   if (cl.contains('open')) {
-
     cl.remove("open");
-
   } else {
-
     cl.add("open");
-
   }
-
 }
-
-
 
 /* check answers */
-
 check_func = function() {
-
   console.log("webex: check answers");
 
-
-
   var cl = this.parentElement.classList;
-
   if (cl.contains('unchecked')) {
-
     cl.remove("unchecked");
-
     this.innerHTML = "Hide Answers";
-
   } else {
-
     cl.add("unchecked");
-
     this.innerHTML = "Show Answers";
-
   }
-
 }
-
-
 
 /* function for checking solveme answers */
-
 solveme_func = function(e) {
-
   console.log("webex: check solveme");
 
-
-
   var real_answers = JSON.parse(this.dataset.answer);
-
   var my_answer = this.value;
-
   var cl = this.classList;
-
   if (cl.contains("ignorecase")) {
-
     my_answer = my_answer.toLowerCase();
-
   }
-
   if (cl.contains("nospaces")) {
-
     my_answer = my_answer.replace(/ /g, "")
-
   }
-
-
 
   if (my_answer == "") {
-
     cl.remove("webex-correct");
-
     cl.remove("webex-incorrect");
-
   } else if (real_answers.includes(my_answer)) {
-
     cl.add("webex-correct");
-
     cl.remove("webex-incorrect");
-
   } else {
-
     cl.add("webex-incorrect");
-
     cl.remove("webex-correct");
-
   }
-
-
 
   // match numeric answers within a specified tolerance
-
   if(this.dataset.tol > 0){
-
     var tol = JSON.parse(this.dataset.tol);
-
     var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
-
     if (matches.reduce((a, b) => a + b, 0) > 0) {
-
       cl.add("webex-correct");
-
     } else {
-
       cl.remove("webex-correct");
-
     }
-
   }
-
-
 
   // added regex bit
-
   if (cl.contains("regex")){
-
     answer_regex = RegExp(real_answers.join("|"))
-
     if (answer_regex.test(my_answer)) {
-
       cl.add("webex-correct");
-
     }
-
   }
 
-
-
   update_total_correct();
-
 }
 
-
-
 /* function for checking select answers */
-
 select_func = function(e) {
-
   console.log("webex: check select");
-
-
 
   var cl = this.classList
 
-
-
   /* add style */
-
   cl.remove("webex-incorrect");
-
   cl.remove("webex-correct");
-
   if (this.value == "answer") {
-
     cl.add("webex-correct");
-
   } else if (this.value != "blank") {
-
     cl.add("webex-incorrect");
-
   }
 
-
-
   update_total_correct();
-
 }
-
-
 
 /* function for checking radiogroups answers */
-
 radiogroups_func = function(e) {
-
   console.log("webex: check radiogroups");
 
-
-
   var checked_button = document.querySelector('input[name=' + this.id + ']:checked');
-
   var cl = checked_button.parentElement.classList;
-
   var labels = checked_button.parentElement.parentElement.children;
 
-
-
   /* get rid of styles */
-
   for (i = 0; i < labels.length; i++) {
-
     labels[i].classList.remove("webex-incorrect");
-
     labels[i].classList.remove("webex-correct");
-
   }
-
-
 
   /* add style */
-
   if (checked_button.value == "answer") {
-
     cl.add("webex-correct");
-
   } else {
-
     cl.add("webex-incorrect");
-
   }
 
-
-
   update_total_correct();
-
 }
-
-
 
 window.onload = function() {
-
   console.log("webex onload");
-
   /* set up solution buttons */
-
   var buttons = document.getElementsByTagName("button");
 
-
-
   for (var i = 0; i < buttons.length; i++) {
-
     if (buttons[i].parentElement.classList.contains('webex-solution')) {
-
       buttons[i].onclick = b_func;
-
     }
-
   }
-
-
 
   var check_sections = document.getElementsByClassName("webex-check");
-
   console.log("check:", check_sections.length);
-
   for (var i = 0; i < check_sections.length; i++) {
-
     check_sections[i].classList.add("unchecked");
 
-
-
     let btn = document.createElement("button");
-
     btn.innerHTML = "Show Answers";
-
     btn.classList.add("webex-check-button");
-
     btn.onclick = check_func;
-
     check_sections[i].appendChild(btn);
 
-
-
     let spn = document.createElement("span");
-
     spn.classList.add("webex-total_correct");
-
     check_sections[i].appendChild(spn);
-
   }
-
-
 
   /* set up webex-solveme inputs */
-
   var solveme = document.getElementsByClassName("webex-solveme");
 
-
-
   for (var i = 0; i < solveme.length; i++) {
-
     /* make sure input boxes don't auto-anything */
-
     solveme[i].setAttribute("autocomplete","off");
-
     solveme[i].setAttribute("autocorrect", "off");
-
     solveme[i].setAttribute("autocapitalize", "off");
-
     solveme[i].setAttribute("spellcheck", "false");
-
     solveme[i].value = "";
 
-
-
     /* adjust answer for ignorecase or nospaces */
-
     var cl = solveme[i].classList;
-
     var real_answer = solveme[i].dataset.answer;
-
     if (cl.contains("ignorecase")) {
-
       real_answer = real_answer.toLowerCase();
-
     }
-
     if (cl.contains("nospaces")) {
-
       real_answer = real_answer.replace(/ /g, "");
-
     }
-
     solveme[i].dataset.answer = real_answer;
 
-
-
     /* attach checking function */
-
     solveme[i].onkeyup = solveme_func;
-
     solveme[i].onchange = solveme_func;
 
-
-
     solveme[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
-
   }
-
-
 
   /* set up radiogroups */
-
   var radiogroups = document.getElementsByClassName("webex-radiogroup");
-
   for (var i = 0; i < radiogroups.length; i++) {
-
     radiogroups[i].onchange = radiogroups_func;
-
   }
-
-
 
   /* set up selects */
-
   var selects = document.getElementsByClassName("webex-select");
-
   for (var i = 0; i < selects.length; i++) {
-
     selects[i].onchange = select_func;
-
     selects[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
-
   }
 
-
-
   update_total_correct();
-
 }
 
-
-
 </script>
-
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
