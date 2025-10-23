@@ -245,7 +245,7 @@ Keep exploring the up-regulated list. 
 
 Likely you are noticing a lot of mitochondrial genes! That sounds exciting, but unfortunately the SEA-AD researchers determined that this was likely due to a **confound** in how the tissue was processed. Ugh, science is hard! Don't worry, though, *some* of the genes held up to the extra corrections the SEA-AD researchers took to weed out confounds. We're about to meet one of them.
 
-### Explore PTPRG, one of the up-regulated genes that survived corrections for possible confound.
+### Explore PTPRG, one of the up-regulated genes that survived corrections for possible confounds
 
 While the mitochondrial genes on this list are probably *not* valid indicators of Alzheimer's, one gene on this list was still shown to be differently expressed even after the SEA-AD researchers corrected for a variety of confounds and processing issues. That gene is PTPRG. You'll find it in the 11th position on this list.
 
