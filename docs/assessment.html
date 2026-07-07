@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Assessment – Defining Disease: Exploring Single-Cell Gene Expression Associated with Alzheimer’s Disease</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c5e43376fd83cb317f8ef26ed5b8630e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ab267aaa573cc86779fa625612c1e483.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -189,217 +192,602 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Stay tuned</p>
+<p>Below are the learning goals/skills we defined for the activity and a set of assessment items that can be used to evaluate them. The assessment items are in three types: confidence ratings, feedback on the activity, and objective knowledge.</p>
+<section id="learning-goals-and-skills" class="level1">
+<h1>Learning Goals and Skills</h1>
+<section id="content" class="level2">
+<h2 class="anchored" data-anchor-id="content"><u>Content:</u></h2>
+<ol type="1">
+<li><p>Explain the principles of RNA-seq, including how transcriptomic data is generated and what it represents at the single-cell level.</p></li>
+<li><p>Describe the role of neuroinflammation in Alzheimer’s Disease.</p></li>
+<li><p>Describe how RNA-seq data is used to identify and classify cell types, especially in the context of neurodegenerative disease like Alzheimer’s.</p></li>
+<li><p>Interpret the purpose and function of UMAP (Uniform Manifold Approximation and Projection) as a dimensionality reduction tool for transcriptomic data.</p></li>
+</ol>
+</section>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills"><u>Skills:</u></h2>
+<ol start="5" type="1">
+<li><p>Use the Cell×Gene explorer to navigate and interact with SEA-AD single-cell RNA-seq datasets.</p></li>
+<li><p>Perform qualitative comparisons of gene expression levels across cell types and/or brain regions using UMAP plots.</p></li>
+<li><p>Filter cells within Cell×Gene explorer based on gene expression, biomarker presence, and demographic variables (e.g., age, sex, pathology score).</p></li>
+<li><p>Identify differentially expressed genes by comparing groups of interest (e.g., disease state or sex).</p></li>
+<li><p>Create a qualitative figure that demonstrates changes in gene expression across a group of interest.</p></li>
+<li><p>Interpret the biological function of a gene by using external tools such as the NIH Gene database (GeneCards, NCBI Gene, etc.).</p></li>
+<li><p>Communicate transcriptomic findings through figures (e.g., UMAPs) and summaries that integrate data interpretation with background literature.</p></li>
+</ol>
+</section>
+</section>
+<section id="self-reported-assessment-items" class="level1">
+<h1>Self-reported Assessment Items</h1>
+<section id="condifence-ratings-can-use-pre-post" class="level2">
+<h2 class="anchored" data-anchor-id="condifence-ratings-can-use-pre-post"><em>Condifence Ratings; Can use Pre &amp; Post</em></h2>
+<p>On a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Strongly Disagree</p>
+<p>I feel confident in my ability to:</p>
+<ol type="1">
+<li><p>Explain the principles of RNA-seq, including how transcriptomic data is generated and what it represents at the single-cell level.</p></li>
+<li><p>Describe the role of neuroinflammation in Alzheimer’s Disease.</p></li>
+<li><p>Describe how RNA-seq data is used to identify and classify cell types, especially in the context of neurodegenerative disease like Alzheimer’s.</p></li>
+<li><p>Interpret the purpose and function of UMAP (Uniform Manifold Approximation and Projection) as a dimensionality reduction tool for transcriptomic data.</p></li>
+<li><p>Use the Cell×Gene explorer to navigate and interact with SEA-AD single-cell RNA-seq datasets.</p></li>
+<li><p>Perform qualitative comparisons of gene expression levels across cell types and/or brain regions using UMAP plots.</p></li>
+<li><p>Filter cells within Cell×Gene explorer based on gene expression, biomarker presence, and demographic variables (e.g., age, sex, pathology score).</p></li>
+<li><p>Identify differentially expressed genes by comparing groups of interest (e.g., disease state or sex).</p></li>
+<li><p>Create a qualitative figure that demonstrates changes in gene expression across a group of interest.</p></li>
+<li><p>Interpret the biological function of a gene by using external tools such as the NIH Gene database (GeneCards, NCBI Gene, etc.).</p></li>
+<li><p>Communicate transcriptomic findings through figures (e.g., UMAPs) and summaries that integrate data interpretation with background literature.</p></li>
+</ol>
+</section>
+<section id="feedback-post-only" class="level2">
+<h2 class="anchored" data-anchor-id="feedback-post-only">Feedback, Post Only</h2>
+<p>On a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Strongly Disagree</p>
+<ol type="1">
+<li><p>I enjoyed learning about gene expression changes and neuroinflammation in Alzheimer’s Disease in this laboratory format.</p></li>
+<li><p>I would have preferred a lecture about gene expression changes and neuroinflammation in Alzheimer’s Disease rather than reading and working through this laboratory assignment.</p></li>
+<li><p>I gained more knowledge about gene expression changes and neuroinflammation in Alzheimer’s Disease from this laboratory format than what I would have learned from a textbook and lecture.</p></li>
+<li><p>I enjoyed using the CellxGene explorer to interact with SEA-AD datasets</p></li>
+<li><p>I enjoyed performing qualitative comparisons of gene expression levels and creating figures using UMAP plots</p></li>
+<li><p>This laboratory assignment should be used again for students to learn about gene expression changes and neuroinflammation in Alzheimer’s Disease.</p></li>
+<li><p>Working with the SEA-AD dataset helped me understand how large-scale, real-world data can be used to study Alzheimer’s disease</p></li>
+<li><p>I am interested in asking my own research questions using the SEA-AD dataset.</p></li>
+<li><p>This laboratory experience increased my interest in exploring my own research questions with open datasets.</p></li>
+<li><p>I see value in using open datasets like SEA-AD in my future coursework or research.</p></li>
+</ol>
+</section>
+</section>
+<section id="objective-assessment-items" class="level1">
+<h1>Objective Assessment Items</h1>
+<section id="content-lo1" class="level2">
+<h2 class="anchored" data-anchor-id="content-lo1"><strong>Content LO1:</strong></h2>
+<ol type="1">
+<li>What does transcriptomic data tell us?</li>
+</ol>
+<p>A. the exact age of a cell.</p>
+<p>B. the genes a cell expresses and the quantity of each.</p>
+<p>C. the DNA sequence of each gene.</p>
+<p>D. the amount of protein present in a cell.</p>
+<ol start="2" type="1">
+<li>How is transcriptomic data generated?</li>
+</ol>
+<p>A. Sequencing mRNAs transcripts in a nucleus and counting the number of transcripts*</p>
+<p>B. Purifying the proteins in a cell and separating them by size</p>
+<p>C. Extracting the DNA from a cell and sequencing it</p>
+<p>D. Expressing foreign genes in a cell and measuring amount of protein produced</p>
+</section>
+<section id="content-lo2" class="level2">
+<h2 class="anchored" data-anchor-id="content-lo2"><strong>Content LO2:</strong></h2>
+<ol start="3" type="1">
+<li><p>Microglia are thought to contribute to the pathology of Alzheimer’s disease by:</p>
+<p>A. Engulfing healthy neurons</p>
+<p>B. Producing amyloid plaques</p>
+<p>C. Promoting neuroinflammation</p>
+<p>D. Creating neurofibrillary tangles</p></li>
+<li><p>Imagine you are designing a study on neuroinflammation in Alzheimer’s disease using RNA-seq. Why would it be important to compare donors with Alzheimer’s to healthy donors of a similar age?</p>
+<p>A. To ensure that differences in inflammatory gene expression are not simply due to normal aging of the immune system.<br>
+B. To control for generational or cohort effects that might influence baseline immune gene activity.<br>
+C. To reduce the influence of other age-related factors, such as changes in microglial activation, that could confound results.<br>
+D. All of the above.</p></li>
+<li><p>What is the biological function of the PTPRG gene?</p>
+<p>A. It is a protein found in the cytosol that regulates glycolisis</p>
+<p>B. It is a protein in the endoplasmic reticulum that regulates protein folding</p>
+<p>C. It is a protein phosphotase found int the plasma membrane that has a variety of cellular functions</p>
+<p>D. It is a mitochondrial protein that produces ATP</p></li>
+</ol>
+</section>
+<section id="content-lo3" class="level2">
+<h2 class="anchored" data-anchor-id="content-lo3"><strong>Content LO3:</strong></h2>
+<ol start="5" type="1">
+<li>In single cell RNA sequencing experiments, how are different cell types classified?</li>
+</ol>
+<p>A. Based on protein levels</p>
+<p>B. Based on the number of gene mutations detected</p>
+<p>C. Based on morphology</p>
+<p>D. Based on similar mRNA expression patterns</p>
+<ol start="6" type="1">
+<li>Which of the following best describes what single-cell RNA-seq data represents?</li>
+</ol>
+<p>A. The complete DNA sequence of individual cells, including mutations.</p>
+<p>B. The dynamic profile of proteins expressed by a cell at a given time.</p>
+<p>C. The relative abundance of transcripts present in a single cell, reflecting gene activity</p>
+<p>D. The epigenetic modifications that regulate gene expression in each cell.</p>
+</section>
+<section id="content-lo3-andor-skills-lo6" class="level2">
+<h2 class="anchored" data-anchor-id="content-lo3-andor-skills-lo6"><strong>Content LO3 and/or Skills LO6:</strong></h2>
+<ol start="7" type="1">
+<li>You are comparing microglial gene expression between Alzheimer’s and normal donors in the SEA-AD dataset. Which result would best suggest disease-specific dysregulation?</li>
+</ol>
+<p>A. A gene highly expressed in both AD and normal microglia.</p>
+<p>B. A gene showing no difference in expression across cell types.</p>
+<p>C. A set of genes consistently upregulated in AD microglia compared to normal microglia.</p>
+<p>D. A single transcript detected in only one AD cell but absent in all others.</p>
+<ol start="8" type="1">
+<li>A student filters SEA-AD microglia for APOE4 carriers vs.&nbsp;non-carriers. Which interpretation would be most biologically sound?</li>
+</ol>
+<p>A. APOE4 is irrelevant to gene expression and therefore cannot explain any differences found.</p>
+<p>B. Any gene expression changes must reflect APOE4 status directly, regardless of disease condition.</p>
+<p>C. All differentially expressed genes are products of single-cell dropout events.</p>
+<p>D. Differentially expressed genes may reflect APOE4 associated pathways, but interpretation should consider AD status and other demographic variables.</p>
+</section>
+<section id="content-lo4" class="level2">
+<h2 class="anchored" data-anchor-id="content-lo4"><strong>Content LO4:</strong></h2>
+<ol start="9" type="1">
+<li>In UMAP plots, a cluster represents:</li>
+</ol>
+<p>A. A group of genes with similar expression levels</p>
+<p>B. A group of cells with similar expression patterns</p>
+<p>C. A group of patients with similar phenotypes</p>
+<p>D. A group of proteins with similar molecular weights</p>
+<ol start="10" type="1">
+<li>When interpreting differentially expressed genes from CellxGene Explorer, what is the most important consideration?</li>
+</ol>
+<p>A. Genes should be interpreted in isolation without reference to biological pathways.</p>
+<p>B. Technical confounds such as batch effects and donor demographics can influence results.</p>
+<p>C. Every gene identified is biologically relevant and directly contributes to pathology.</p>
+<p>D. The number of reads per gene is irrelevant to statistical reliability.</p>
+<ol start="11" type="1">
+<li>Which of the following statements best explains what UMAP, and dimensionality reduction more broadly, is doing?</li>
+</ol>
+<p>A. UMAP selects the two most important genes and plots the expression levels of those genes against each other</p>
+<p>B. UMAP compresses high-dimensional data into fewer dimensions while preserving as much of the structure of the data (relationships) as possible</p>
+<p>C. UMAP discards all but two dimensions of the original dataset, so clusters represent only a small fraction of the biological variability</p>
+<p>D. UMAP creates random clusters in 2D space without reference to the high-dimensional input</p>
+</section>
+<section id="content-lo4-andor-skills-lo911" class="level2">
+<h2 class="anchored" data-anchor-id="content-lo4-andor-skills-lo911"><strong>Content LO4 and/or Skills LO9/11:</strong></h2>
+<ol start="12" type="1">
+<li>A well-designed UMAP figure in a report should include:</li>
+</ol>
+<p>A. Raw sequencing reads aligned to the genome</p>
+<p>B. Clearly labeled axes that represent transcript counts per gene</p>
+<p>C. Color-coded clusters or overlays indicating the comparison of interest</p>
+<p>D. A bar graph showing the total number of genes expressed in each cell</p>
+</section>
+<section id="skills-lo5" class="level2">
+<h2 class="anchored" data-anchor-id="skills-lo5"><strong>Skills LO5:</strong></h2>
+<ol start="13" type="1">
+<li>In the Seattle Alzheimer’s Brain Cell Atlas (SEA-AD), you can explore:</li>
+</ol>
+<p>A. How the abundance of amyloid plaques correlates with cognitive decline</p>
+<p>B. The gene mutations associated with Alzheimer’s disease</p>
+<p>C. The effectiveness of dementia drugs</p>
+<p>D. Gene expression differences between Alzheimer’s and unaffected donors</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script>
 
+
+
 /* update total correct if #webex-total_correct exists */
+
 update_total_correct = function() {
+
   console.log("webex: update total_correct");
 
+
+
   var t = document.getElementsByClassName("webex-total_correct");
+
   for (var i = 0; i < t.length; i++) {
+
     p = t[i].parentElement;
+
     var correct = p.getElementsByClassName("webex-correct").length;
+
     var solvemes = p.getElementsByClassName("webex-solveme").length;
+
     var radiogroups = p.getElementsByClassName("webex-radiogroup").length;
+
     var selects = p.getElementsByClassName("webex-select").length;
 
+
+
     t[i].innerHTML = correct + " of " + (solvemes + radiogroups + selects) + " correct";
+
   }
+
 }
+
+
 
 /* webex-solution button toggling function */
+
 b_func = function() {
+
   console.log("webex: toggle hide");
 
+
+
   var cl = this.parentElement.classList;
+
   if (cl.contains('open')) {
+
     cl.remove("open");
+
   } else {
+
     cl.add("open");
+
   }
+
 }
+
+
 
 /* check answers */
+
 check_func = function() {
+
   console.log("webex: check answers");
 
+
+
   var cl = this.parentElement.classList;
+
   if (cl.contains('unchecked')) {
+
     cl.remove("unchecked");
+
     this.innerHTML = "Hide Answers";
+
   } else {
+
     cl.add("unchecked");
+
     this.innerHTML = "Show Answers";
+
   }
+
 }
+
+
 
 /* function for checking solveme answers */
+
 solveme_func = function(e) {
+
   console.log("webex: check solveme");
 
+
+
   var real_answers = JSON.parse(this.dataset.answer);
+
   var my_answer = this.value;
+
   var cl = this.classList;
+
   if (cl.contains("ignorecase")) {
+
     my_answer = my_answer.toLowerCase();
+
   }
+
   if (cl.contains("nospaces")) {
+
     my_answer = my_answer.replace(/ /g, "")
+
   }
+
+
 
   if (my_answer == "") {
+
     cl.remove("webex-correct");
+
     cl.remove("webex-incorrect");
+
   } else if (real_answers.includes(my_answer)) {
+
     cl.add("webex-correct");
+
     cl.remove("webex-incorrect");
+
   } else {
+
     cl.add("webex-incorrect");
+
     cl.remove("webex-correct");
+
   }
+
+
 
   // match numeric answers within a specified tolerance
+
   if(this.dataset.tol > 0){
+
     var tol = JSON.parse(this.dataset.tol);
+
     var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
+
     if (matches.reduce((a, b) => a + b, 0) > 0) {
+
       cl.add("webex-correct");
+
     } else {
+
       cl.remove("webex-correct");
+
     }
+
   }
+
+
 
   // added regex bit
+
   if (cl.contains("regex")){
+
     answer_regex = RegExp(real_answers.join("|"))
+
     if (answer_regex.test(my_answer)) {
+
       cl.add("webex-correct");
+
     }
+
   }
 
+
+
   update_total_correct();
+
 }
 
+
+
 /* function for checking select answers */
+
 select_func = function(e) {
+
   console.log("webex: check select");
+
+
 
   var cl = this.classList
 
+
+
   /* add style */
+
   cl.remove("webex-incorrect");
+
   cl.remove("webex-correct");
+
   if (this.value == "answer") {
+
     cl.add("webex-correct");
+
   } else if (this.value != "blank") {
+
     cl.add("webex-incorrect");
+
   }
 
+
+
   update_total_correct();
+
 }
+
+
 
 /* function for checking radiogroups answers */
+
 radiogroups_func = function(e) {
+
   console.log("webex: check radiogroups");
 
+
+
   var checked_button = document.querySelector('input[name=' + this.id + ']:checked');
+
   var cl = checked_button.parentElement.classList;
+
   var labels = checked_button.parentElement.parentElement.children;
 
+
+
   /* get rid of styles */
+
   for (i = 0; i < labels.length; i++) {
+
     labels[i].classList.remove("webex-incorrect");
+
     labels[i].classList.remove("webex-correct");
+
   }
+
+
 
   /* add style */
+
   if (checked_button.value == "answer") {
+
     cl.add("webex-correct");
+
   } else {
+
     cl.add("webex-incorrect");
+
   }
 
+
+
   update_total_correct();
+
 }
+
+
 
 window.onload = function() {
+
   console.log("webex onload");
+
   /* set up solution buttons */
+
   var buttons = document.getElementsByTagName("button");
 
+
+
   for (var i = 0; i < buttons.length; i++) {
+
     if (buttons[i].parentElement.classList.contains('webex-solution')) {
+
       buttons[i].onclick = b_func;
+
     }
+
   }
+
+
 
   var check_sections = document.getElementsByClassName("webex-check");
+
   console.log("check:", check_sections.length);
+
   for (var i = 0; i < check_sections.length; i++) {
+
     check_sections[i].classList.add("unchecked");
 
+
+
     let btn = document.createElement("button");
+
     btn.innerHTML = "Show Answers";
+
     btn.classList.add("webex-check-button");
+
     btn.onclick = check_func;
+
     check_sections[i].appendChild(btn);
 
+
+
     let spn = document.createElement("span");
+
     spn.classList.add("webex-total_correct");
+
     check_sections[i].appendChild(spn);
+
   }
+
+
 
   /* set up webex-solveme inputs */
+
   var solveme = document.getElementsByClassName("webex-solveme");
 
+
+
   for (var i = 0; i < solveme.length; i++) {
+
     /* make sure input boxes don't auto-anything */
+
     solveme[i].setAttribute("autocomplete","off");
+
     solveme[i].setAttribute("autocorrect", "off");
+
     solveme[i].setAttribute("autocapitalize", "off");
+
     solveme[i].setAttribute("spellcheck", "false");
+
     solveme[i].value = "";
 
+
+
     /* adjust answer for ignorecase or nospaces */
+
     var cl = solveme[i].classList;
+
     var real_answer = solveme[i].dataset.answer;
+
     if (cl.contains("ignorecase")) {
+
       real_answer = real_answer.toLowerCase();
+
     }
+
     if (cl.contains("nospaces")) {
+
       real_answer = real_answer.replace(/ /g, "");
+
     }
+
     solveme[i].dataset.answer = real_answer;
 
+
+
     /* attach checking function */
+
     solveme[i].onkeyup = solveme_func;
+
     solveme[i].onchange = solveme_func;
 
+
+
     solveme[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+
   }
+
+
 
   /* set up radiogroups */
+
   var radiogroups = document.getElementsByClassName("webex-radiogroup");
+
   for (var i = 0; i < radiogroups.length; i++) {
+
     radiogroups[i].onchange = radiogroups_func;
+
   }
+
+
 
   /* set up selects */
+
   var selects = document.getElementsByClassName("webex-select");
+
   for (var i = 0; i < selects.length; i++) {
+
     selects[i].onchange = select_func;
+
     selects[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+
   }
 
+
+
   update_total_correct();
+
 }
 
+
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -451,13 +839,14 @@ window.onload = function() {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

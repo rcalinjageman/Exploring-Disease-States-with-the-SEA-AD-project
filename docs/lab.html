@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Lab – Defining Disease: Exploring Single-Cell Gene Expression Associated with Alzheimer’s Disease</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -24,7 +27,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -56,10 +58,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c5e43376fd83cb317f8ef26ed5b8630e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ab267aaa573cc86779fa625612c1e483.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -214,7 +216,7 @@ div.csl-indent {
 <p>That’s a pretty focused question—so where did it come from? Here’s the background:</p>
 <ul>
 <li><p>Microglia have been strongly implicated in the progression of Alzheimer’s disease <span class="citation" data-cites="keren-shaul2017">(<a href="#ref-keren-shaul2017" role="doc-biblioref">Keren-Shaul et al. 2017</a>)</span></p></li>
-<li><p>The middle temporal gyrus (MTG) is a brain region key to memory processing and among the first areas to show AD-related dysfunction <span class="citation" data-cites="papeo2019 chen2022">(<a href="#ref-papeo2019" role="doc-biblioref">Papeo, Agostini, and Lingnau 2019</a>; <a href="#ref-chen2022" role="doc-biblioref">Chen et al. 2022</a>)</span>.</p></li>
+<li><p>The middle temporal gyrus (MTG) is a brain region key to memory processing and among the first areas to show AD-related dysfunction <span class="citation" data-cites="papeo2019 chen2022">(<a href="#ref-papeo2019" role="doc-biblioref">Papeo et al. 2019</a>; <a href="#ref-chen2022" role="doc-biblioref">Chen et al. 2022</a>)</span>.</p></li>
 <li><p>The SEA-AD team’s own analysis <span class="citation" data-cites="gabitto2024">(<a href="#ref-gabitto2024" role="doc-biblioref">Gabitto et al. 2024</a>)</span> found that microglia exhibit some of the most significant gene expression changes associated with AD. This gives us a chance to explore one of their major findings firsthand.</p></li>
 <li><p>By focusing only on microglia, we’ll load a smaller subset of the SEA-AD database – important because the site can be unstable or slow when handling the full dataset.</p></li>
 </ul>
@@ -228,13 +230,11 @@ div.csl-indent {
 <li><p><strong>Thousands of genes</strong></p></li>
 <li><p><strong>Nearly all the genes</strong></p></li>
 </ol>
-<p><strong>Q2: Think about the complexity of Alzheimer’s disease and the number of cellular pathways it might impact. Would you expect just a handful of genes to be involved, or a much broader shift in gene expression?</strong></p>
-<p><strong>Q3. When considering the impact of Alzheimer’s disease on gene expression, how would you describe the changes you expect to see?</strong></p>
+<p><strong>Q2. When considering the impact of Alzheimer’s disease on gene expression, how would you describe the changes you expect to see?</strong></p>
 <ol type="1">
 <li><p><strong>Qualitative differences – clear, distinct changes like the “on/off” pattern we saw with XIST expression.</strong></p></li>
 <li><p><strong>More subtle changes – shifts in the level of expression rather than outright presence or absence, meaning the differences are a matter of degree rather than kind.</strong></p></li>
 </ol>
-<p><strong>Q4: Reflect on whether disease-related gene expression changes are likely to be dramatic and categorical, or more nuanced and gradual.</strong></p>
 </section>
 <section id="start-a-lab-notebook" class="level3">
 <h3 class="anchored" data-anchor-id="start-a-lab-notebook">Start a Lab Notebook</h3>
@@ -268,13 +268,13 @@ Figure&nbsp;2
 </figcaption>
 </figure>
 </div>
-<p><strong>Q5: How many individual cells are in this dataset?</strong></p>
+<p><strong>Q3: How many individual cells are in this dataset?</strong></p>
 <ol type="1">
 <li><p><strong>0 cells</strong></p></li>
 <li><p><strong>40,000 cells</strong></p></li>
 <li><p><strong>Impossible to tell</strong></p></li>
 </ol>
-<p><strong>Q6: Think back to the pre-lab.&nbsp; How many individual donors are in this study?</strong></p>
+<p><strong>Q4: Think back to the pre-lab.&nbsp; How many individual donors are in this study?</strong></p>
 <ol type="1">
 <li><p><strong>Just 1, all of these cells are from one human</strong></p></li>
 <li><p><strong>About 80 donors; each had many cells analyzed</strong></p></li>
@@ -296,9 +296,6 @@ Figure&nbsp;3
 </figcaption>
 </figure>
 </div></li>
-</ol>
-<!-- -->
-<ol start="2" type="1">
 <li><p>Use the water-drop tool to color code the cells by <strong>APOE</strong> expression. Then, expand the <strong>APOE</strong> gene entry to view its overall expression histogram. Take a moment to interpret what this visualization tells you about <strong>APOE</strong> expression in microglia. What patterns or levels of expression do you notice?</p>
 <div id="fig-lab-04" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -323,8 +320,8 @@ Figure&nbsp;5
 </div></li>
 <li><p>Use the check and uncheck buttons to toggle <strong>APOE</strong> expression visualization for each group individually. Each time you switch groups, be sure to move your mouse pointer back to the UMAP to avoid unintended highlighting of other cells.</p></li>
 </ol>
-<p><strong>Q7: Based on what you see, do the expression patterns appear different between the two groups? Do these histograms seem very different to you?</strong></p>
-<p><strong>Q8: Create a figure comparing the two UMAPs of normal versus AD donors. The figure should look something like what you see below. This will be Figure 1</strong></p>
+<p><strong>Q5: Based on what you see, do the expression patterns appear different between the two groups? Do these histograms seem very different to you?</strong></p>
+<p><strong>Q6: Create a figure comparing the two UMAPs of normal versus AD donors. The figure should look something like what you see below. This will be Figure 1</strong></p>
 <div id="fig-lab-06" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-lab-06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -335,7 +332,7 @@ Figure&nbsp;6
 </figcaption>
 </figure>
 </div>
-<p><strong>Q9: Do the APOE gene expression UMAPs look very different between microglia from Alzheimer’s donors and healthy donors?</strong></p>
+<p><strong>Q7: Do the APOE gene expression UMAPs look very different between microglia from Alzheimer’s donors and healthy donors?</strong></p>
 <ol type="1">
 <li><p><strong>Yeah, microglia from AD donors have way more APOE expression.</strong></p></li>
 <li><p><strong>Yeah, microglia from AD donors have way less APOE expression.</strong></p></li>
@@ -354,7 +351,7 @@ Figure&nbsp;6
 </ol>
 <p>In the “Supertype” roll down, uncheck all of the microglia supertypes, except for Micro-PVM_3_SEAAD.&nbsp; Micro-PVM3 is a disease-associated type of microglia, previously shown to undergo gene expression changes in AD (Gabitto et. al., 2024).</p>
 <p><img src="images/figure_lab_07a.png" class="img-fluid"></p>
-<p>In the disease roll down, uncheck the dementia box and check the <strong>normal box</strong> so that only microglia from the normal donors are selected.&nbsp; This should provide 20,124 cells.</p>
+<p>In the disease roll down, uncheck the dementia box and check the <strong>normal box</strong> so that only microglia from the normal donors are selected.&nbsp;</p>
 <div id="fig-lab-07" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-lab-07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -488,7 +485,7 @@ Figure&nbsp;17
 </figcaption>
 </figure>
 </div>
-<p>You should now have something like this on your screen:</p>
+<p>You have now completed several complex steps to help sort through *all* the expressed genes in this dataset to see which are most different between AD and Control donors.&nbsp; You should now have something like this on your screen</p>
 <div id="fig-lab-18" class="quarto-float quarto-figure quarto-figure-center anchored" width="750">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-lab-18-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -547,7 +544,7 @@ Figure&nbsp;21
 <li><p>Isolate down to AD (dementia) or normal microglia, screen shot each, and line them up to compare.&nbsp;</p></li>
 </ul></li>
 </ul>
-<p><strong>Q10 Make a figure comparing expression of MT-ND3 in the PVM_3 Microglia of Normal and Dementia Donors. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be your Figure 2.</strong>&nbsp; Your figure should end up looking something like this:</p>
+<p><strong>Q8 Make a figure comparing expression of MT-ND3 in the PVM_3 Microglia of Normal and Dementia Donors. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be your Figure 2 in the file you will upload at the end of the lab.</strong> Your figure should end up looking some</p>
 <div id="fig-lab-22" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-lab-22-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -564,7 +561,7 @@ Figure&nbsp;22
 <li><p>What does this gene do?&nbsp; Use the (i) information button to find out more about it. Note: information is not always available for all genes. If no info is listed, look it up here: <a href="https://www.ncbi.nlm.nih.gov/gene/" class="uri">https://www.ncbi.nlm.nih.gov/gene/</a> or here <a href="https://www.genecards.org/" class="uri">https://www.genecards.org/</a></p></li>
 <li><p>What, exactly, do mitochondria do?</p></li>
 </ul>
-<p><strong>Q11: Write, in your own words, about the difference in expression you are seeing for MT-ND3 based on your Figure 2.&nbsp; Would you call this a dramatic change in expression or a subtle change in expression?&nbsp; Does it seem like most microglia have higher expression in AD or just some?</strong></p>
+<p><strong>Q9: Write, in your own words, about the difference in expression you are seeing for MT-ND3 based on your Figure 2.&nbsp; Would you call this a dramatic change in expression or a subtle change in expression?&nbsp; Does it seem like most microglia have higher expression in AD or just some?</strong></p>
 </section>
 <section id="explore-more-of-the-up-regulated-genes" class="level3">
 <h3 class="anchored" data-anchor-id="explore-more-of-the-up-regulated-genes">Explore More of the Up-Regulated Genes</h3>
@@ -587,10 +584,10 @@ Figure&nbsp;22
 <li><p>Roll down the <strong>disease</strong> filter.&nbsp; Compare the by-group histograms.&nbsp; Think about it: Do they seem that different?</p></li>
 <li><p>Isolate down to AD (dementia) or normal microglia, screen shot each, and line them up to compare.&nbsp;</p></li>
 </ul>
-<p><strong>Q12 Make a figure comparing PTPRG expression in the PVM_3 Microglia of Normal and Dementia Donors. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will your Figure 3.</strong>&nbsp; Your figure should end up looking something like this:</p>
+<p><strong>Q10 Make a figure comparing PTPRG expression in the PVM_3 Microglia of Normal and Dementia Donors. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will your Figure 3 in the file you upload at the end of the lab; it will show the comparison of PTPRG expression between AD and control donors.</strong>&nbsp; Your figure should end up looking something like this:</p>
 <p><img src="images/figure_lab_22.png" class="img-fluid" width="657"></p>
-<p><strong>Q13: Write, in your own words, about the difference in expression you are seeing for PTPRG based on your created Figure 1.&nbsp; Would you call this a dramatic change in expression or a subtle change in expression?&nbsp; Does it seem like most microglia have higher expression in AD or just some?</strong></p>
-<p><strong>Q14: Now that you’ve explored some of the up-regulated genes, write a short overall summary in your own words about your conclusions. Try to express yourself clearly and succinctly (briefly) and without jargon. Your paragraph should help another reader understand:</strong></p>
+<p><strong>Q11: Write, in your own words, about the difference in expression you are seeing for PTPRG based on your created&nbsp; Would you call this a dramatic change in expression or a subtle change in expression?&nbsp; Does it seem like most microglia have higher expression in AD or just some?</strong></p>
+<p><strong>Q12: Now that you’ve explored some of the up-regulated genes, write a short overall summary in your own words about your conclusions. Try to express yourself clearly and succinctly (briefly) and without jargon. Your paragraph should help another reader understand:</strong></p>
 <ul>
 <li><p><strong>What is the association between AD and gene expression in MTG microglia?</strong></p></li>
 <li><p><strong>Are there widespread differences or are they more subtle?</strong></p></li>
@@ -605,20 +602,25 @@ Figure&nbsp;22
 <li><p>Make specific gene expression comparison figures (well labelled) for the <strong>top two down-regulated genes</strong>. This will be your Figures 4 and 5.</p></li>
 <li><p>Work down the list to where you no longer feel very confident about the differences, though you don’t have to make figures past the first two genes</p></li>
 </ul>
-<p><strong>Q15: Make figures comparing expression between normal and dementia donors, one figue for each of the two top down-regulated genes. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be Figures 4 (top down-regulated gene) and Figure 5 (2nd most down-regulated gene).</strong></p>
-<p><strong>Q16: Write up a short paragraph summarizing your exploration of the down-regulated genes</strong></p>
+<p><strong>Q13: Make figures comparing expression between normal and dementia donors, one figue for each of the two top down-regulated genes. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be Figures 4 (top down-regulated gene) and Figure 5 (2nd most down-regulated gene).</strong></p>
+<p><strong>Q14: Write up a short paragraph summarizing your exploration of the down-regulated genes</strong></p>
+<ul>
+<li><p><strong>What is the <em>association</em> between AD and <em>decreased</em> gene expression in MTG microglia?</strong></p></li>
+<li><p><strong>Are there widespread differences or are they more subtle?</strong></p></li>
+<li><p><strong>Are there consistencies in the types of genes related to AD?</strong></p></li>
+</ul>
 </section>
 <section id="your-lab-hand-in-so-far" class="level3">
 <h3 class="anchored" data-anchor-id="your-lab-hand-in-so-far">Your Lab Hand-In So Far</h3>
 <p><strong>You should now have:</strong></p>
 <ol type="1">
-<li><p><strong>Figure 1: A figure comparing APOE expression in the microglia from normal and AD donors (Q8)</strong></p></li>
-<li><p><strong>Figure 2: A figure comparing the MT-ND3 between normal and AD donors (Q10)</strong></p></li>
-<li><p><strong>Figure 3: A figure comparing the PTPRG between normal and AD donors (Q12)</strong></p></li>
-<li><p><strong>Short intepretation paragraphs summarizing your conclusion about the up-regulated genes: MT-ND3, PTPRG, and overall (Q11, Q13, Q14)</strong></p></li>
-<li><p><strong>Figure 4: A figure comparing the most down-regulate gene between normal and dementia donors (P2RY12, Q15).</strong></p></li>
-<li><p><strong>Figure 5: A figure comparing the 2nd most down-regulated gene between normal and dementia donors (CX3CR1, A15).</strong></p></li>
-<li><p><strong>A short paragraph summarizing your analysis of the down-regulated genes (Q16)</strong></p></li>
+<li><p><strong>Figure 1: A figure comparing APOE expression in the microglia from normal and AD donors (Q6)</strong></p></li>
+<li><p><strong>Figure 2: A figure comparing the MT-ND3 between normal and AD donors (Q8)</strong></p></li>
+<li><p><strong>Figure 3: A figure comparing the PTPRG between normal and AD donors (Q10)</strong></p></li>
+<li><p><strong>Short intepretation paragraphs summarizing your conclusion about the up-regulated genes: MT-ND3, PTPRG, and overall (Q9, Q11, Q12)</strong></p></li>
+<li><p><strong>Figure 4: A figure comparing the most down-regulate gene between normal and dementia donors (PQ13).</strong></p></li>
+<li><p><strong>Figure 5: A figure comparing the 2nd most down-regulated gene between normal and dementia donors (Q13).</strong></p></li>
+<li><p><strong>A short paragraph summarizing your analysis of the down-regulated genes (Q14)</strong></p></li>
 </ol>
 </section>
 <section id="thinking-critically-about-confounds" class="level3">
@@ -645,15 +647,15 @@ Figure&nbsp;22
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-chen2022" class="csl-entry" role="listitem">
-Chen, Shuo, Yuzhou Chang, Liangping Li, Diana Acosta, Yang Li, Qi Guo, Cankun Wang, et al. 2022. <span>“Spatially Resolved Transcriptomics Reveals Genes Associated with the Vulnerability of Middle Temporal Gyrus in Alzheimer<span>’</span>s Disease.”</span> <em>Acta Neuropathologica Communications</em> 10 (1): 188. <a href="https://doi.org/10.1186/s40478-022-01494-6">https://doi.org/10.1186/s40478-022-01494-6</a>.
+Chen, Shuo, Yuzhou Chang, Liangping Li, et al. 2022. <span>“Spatially Resolved Transcriptomics Reveals Genes Associated with the Vulnerability of Middle Temporal Gyrus in Alzheimer<span>’</span>s Disease.”</span> <em>Acta Neuropathologica Communications</em> 10 (1): 188. <a href="https://doi.org/10.1186/s40478-022-01494-6">https://doi.org/10.1186/s40478-022-01494-6</a>.
 </div>
 <div id="ref-gabitto2024" class="csl-entry" role="listitem">
-Gabitto, Mariano I., Kyle J. Travaglini, Victoria M. Rachleff, Eitan S. Kaplan, Brian Long, Jeanelle Ariza, Yi Ding, et al. 2024. <span>“Integrated Multimodal Cell Atlas of Alzheimer<span>’</span>s Disease.”</span> <em>Nature Neuroscience</em> 27 (12): 2366–83. <a href="https://doi.org/10.1038/s41593-024-01774-5">https://doi.org/10.1038/s41593-024-01774-5</a>.
+Gabitto, Mariano I., Kyle J. Travaglini, Victoria M. Rachleff, et al. 2024. <span>“Integrated Multimodal Cell Atlas of Alzheimer<span>’</span>s Disease.”</span> <em>Nature Neuroscience</em> 27 (12): 2366–83. <a href="https://doi.org/10.1038/s41593-024-01774-5">https://doi.org/10.1038/s41593-024-01774-5</a>.
 </div>
 <div id="ref-keren-shaul2017" class="csl-entry" role="listitem">
-Keren-Shaul, Hadas, Amit Spinrad, Assaf Weiner, Orit Matcovitch-Natan, Raz Dvir-Szternfeld, Tyler K. Ulland, Eyal David, et al. 2017. <span>“A Unique Microglia Type Associated with Restricting Development of Alzheimer<span>’</span>s Disease.”</span> <em>Cell</em> 169 (7): 1276–1290.e17. <a href="https://doi.org/10.1016/j.cell.2017.05.018">https://doi.org/10.1016/j.cell.2017.05.018</a>.
+Keren-Shaul, Hadas, Amit Spinrad, Assaf Weiner, et al. 2017. <span>“A Unique Microglia Type Associated with Restricting Development of Alzheimer<span>’</span>s Disease.”</span> <em>Cell</em> 169 (7): 1276–1290.e17. <a href="https://doi.org/10.1016/j.cell.2017.05.018">https://doi.org/10.1016/j.cell.2017.05.018</a>.
 </div>
 <div id="ref-papeo2019" class="csl-entry" role="listitem">
 Papeo, Liuba, Beatrice Agostini, and Angelika Lingnau. 2019. <span>“The Large-Scale Organization of Gestures and Words in the Middle Temporal Gyrus.”</span> <em>Journal of Neuroscience</em> 39 (30): 5966–74. <a href="https://doi.org/10.1523/JNEUROSCI.2668-18.2019">https://doi.org/10.1523/JNEUROSCI.2668-18.2019</a>.
@@ -661,210 +663,416 @@ Papeo, Liuba, Beatrice Agostini, and Angelika Lingnau. 2019. <span>“The Large-
 </div></section></div></main> <!-- /main -->
 <script>
 
+
+
 /* update total correct if #webex-total_correct exists */
+
 update_total_correct = function() {
+
   console.log("webex: update total_correct");
 
+
+
   var t = document.getElementsByClassName("webex-total_correct");
+
   for (var i = 0; i < t.length; i++) {
+
     p = t[i].parentElement;
+
     var correct = p.getElementsByClassName("webex-correct").length;
+
     var solvemes = p.getElementsByClassName("webex-solveme").length;
+
     var radiogroups = p.getElementsByClassName("webex-radiogroup").length;
+
     var selects = p.getElementsByClassName("webex-select").length;
 
+
+
     t[i].innerHTML = correct + " of " + (solvemes + radiogroups + selects) + " correct";
+
   }
+
 }
+
+
 
 /* webex-solution button toggling function */
+
 b_func = function() {
+
   console.log("webex: toggle hide");
 
+
+
   var cl = this.parentElement.classList;
+
   if (cl.contains('open')) {
+
     cl.remove("open");
+
   } else {
+
     cl.add("open");
+
   }
+
 }
+
+
 
 /* check answers */
+
 check_func = function() {
+
   console.log("webex: check answers");
 
+
+
   var cl = this.parentElement.classList;
+
   if (cl.contains('unchecked')) {
+
     cl.remove("unchecked");
+
     this.innerHTML = "Hide Answers";
+
   } else {
+
     cl.add("unchecked");
+
     this.innerHTML = "Show Answers";
+
   }
+
 }
+
+
 
 /* function for checking solveme answers */
+
 solveme_func = function(e) {
+
   console.log("webex: check solveme");
 
+
+
   var real_answers = JSON.parse(this.dataset.answer);
+
   var my_answer = this.value;
+
   var cl = this.classList;
+
   if (cl.contains("ignorecase")) {
+
     my_answer = my_answer.toLowerCase();
+
   }
+
   if (cl.contains("nospaces")) {
+
     my_answer = my_answer.replace(/ /g, "")
+
   }
+
+
 
   if (my_answer == "") {
+
     cl.remove("webex-correct");
+
     cl.remove("webex-incorrect");
+
   } else if (real_answers.includes(my_answer)) {
+
     cl.add("webex-correct");
+
     cl.remove("webex-incorrect");
+
   } else {
+
     cl.add("webex-incorrect");
+
     cl.remove("webex-correct");
+
   }
+
+
 
   // match numeric answers within a specified tolerance
+
   if(this.dataset.tol > 0){
+
     var tol = JSON.parse(this.dataset.tol);
+
     var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
+
     if (matches.reduce((a, b) => a + b, 0) > 0) {
+
       cl.add("webex-correct");
+
     } else {
+
       cl.remove("webex-correct");
+
     }
+
   }
+
+
 
   // added regex bit
+
   if (cl.contains("regex")){
+
     answer_regex = RegExp(real_answers.join("|"))
+
     if (answer_regex.test(my_answer)) {
+
       cl.add("webex-correct");
+
     }
+
   }
 
+
+
   update_total_correct();
+
 }
 
+
+
 /* function for checking select answers */
+
 select_func = function(e) {
+
   console.log("webex: check select");
+
+
 
   var cl = this.classList
 
+
+
   /* add style */
+
   cl.remove("webex-incorrect");
+
   cl.remove("webex-correct");
+
   if (this.value == "answer") {
+
     cl.add("webex-correct");
+
   } else if (this.value != "blank") {
+
     cl.add("webex-incorrect");
+
   }
 
+
+
   update_total_correct();
+
 }
+
+
 
 /* function for checking radiogroups answers */
+
 radiogroups_func = function(e) {
+
   console.log("webex: check radiogroups");
 
+
+
   var checked_button = document.querySelector('input[name=' + this.id + ']:checked');
+
   var cl = checked_button.parentElement.classList;
+
   var labels = checked_button.parentElement.parentElement.children;
 
+
+
   /* get rid of styles */
+
   for (i = 0; i < labels.length; i++) {
+
     labels[i].classList.remove("webex-incorrect");
+
     labels[i].classList.remove("webex-correct");
+
   }
+
+
 
   /* add style */
+
   if (checked_button.value == "answer") {
+
     cl.add("webex-correct");
+
   } else {
+
     cl.add("webex-incorrect");
+
   }
 
+
+
   update_total_correct();
+
 }
+
+
 
 window.onload = function() {
+
   console.log("webex onload");
+
   /* set up solution buttons */
+
   var buttons = document.getElementsByTagName("button");
 
+
+
   for (var i = 0; i < buttons.length; i++) {
+
     if (buttons[i].parentElement.classList.contains('webex-solution')) {
+
       buttons[i].onclick = b_func;
+
     }
+
   }
+
+
 
   var check_sections = document.getElementsByClassName("webex-check");
+
   console.log("check:", check_sections.length);
+
   for (var i = 0; i < check_sections.length; i++) {
+
     check_sections[i].classList.add("unchecked");
 
+
+
     let btn = document.createElement("button");
+
     btn.innerHTML = "Show Answers";
+
     btn.classList.add("webex-check-button");
+
     btn.onclick = check_func;
+
     check_sections[i].appendChild(btn);
 
+
+
     let spn = document.createElement("span");
+
     spn.classList.add("webex-total_correct");
+
     check_sections[i].appendChild(spn);
+
   }
+
+
 
   /* set up webex-solveme inputs */
+
   var solveme = document.getElementsByClassName("webex-solveme");
 
+
+
   for (var i = 0; i < solveme.length; i++) {
+
     /* make sure input boxes don't auto-anything */
+
     solveme[i].setAttribute("autocomplete","off");
+
     solveme[i].setAttribute("autocorrect", "off");
+
     solveme[i].setAttribute("autocapitalize", "off");
+
     solveme[i].setAttribute("spellcheck", "false");
+
     solveme[i].value = "";
 
+
+
     /* adjust answer for ignorecase or nospaces */
+
     var cl = solveme[i].classList;
+
     var real_answer = solveme[i].dataset.answer;
+
     if (cl.contains("ignorecase")) {
+
       real_answer = real_answer.toLowerCase();
+
     }
+
     if (cl.contains("nospaces")) {
+
       real_answer = real_answer.replace(/ /g, "");
+
     }
+
     solveme[i].dataset.answer = real_answer;
 
+
+
     /* attach checking function */
+
     solveme[i].onkeyup = solveme_func;
+
     solveme[i].onchange = solveme_func;
 
+
+
     solveme[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+
   }
+
+
 
   /* set up radiogroups */
+
   var radiogroups = document.getElementsByClassName("webex-radiogroup");
+
   for (var i = 0; i < radiogroups.length; i++) {
+
     radiogroups[i].onchange = radiogroups_func;
+
   }
+
+
 
   /* set up selects */
+
   var selects = document.getElementsByClassName("webex-select");
+
   for (var i = 0; i < selects.length; i++) {
+
     selects[i].onchange = select_func;
+
     selects[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+
   }
 
+
+
   update_total_correct();
+
 }
 
+
+
 </script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -916,13 +1124,14 @@ window.onload = function() {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

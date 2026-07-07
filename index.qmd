@@ -15,3 +15,15 @@ Here you will find a complete set of lab materials you can adapt for your own co
 - For use with an LMS:
 
   - [This zip file](https://github.com/rcalinjageman/Exploring-Disease-States-with-the-SEA-AD-project/tree/main/common_cartridge) is a Canvas export in Common Cartridge Formate. It should enable you to import the pre-lab and lab activity, each as a stand-alone, self-paced online activity that you can customize. Enjoy, and if you use these resources, please cite their source!
+
+- Online resources you can provide to your students
+
+- Assessment: We provide a set of potential assessment items, both objective and self-reported, and provide Qualtrics exports you can use to collect your own assessment data [here](https://github.com/rcalinjageman/Exploring-Disease-States-with-the-SEA-AD-project/tree/main/qualtrics).
+
+- CellxGene Explorer Tutorial: Can be provided to give a more detailed overview of how to navigate the CellxGene explorer: <https://cellxgene.cziscience.com/docs/04__Analyze%20Public%20Data/4_1__Hosted%20Tutorials> 
+
+- Supplemental videos
+
+  - The Allen Institute has a short webinar about this project here: <https://www.youtube.com/watch?v=QON_qTo06oM>
+
+  - And a longer webinar here: <https://www.youtube.com/watch?v=lcS3o1N22Bc>

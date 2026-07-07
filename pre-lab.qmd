@@ -89,8 +89,8 @@ The remainder of the text and figures in this section are adapted from their wor
 
 ![](images/figure_prelab_06.png){#fig-prelab-06}
 
-**Check Your Understanding:\
-\**
+\*\*Check Your Understanding:\
+\*\*
 
 **Q6: The SEA-AD project measured \_\_\_\_ in individual cells from the brains of healthy and AD donors.**
 
@@ -289,11 +289,11 @@ Right away, the Cell×Gene explorer is showing you the XIST expression broken do
 
 **Q11. What can you tell from this?**
 
-**A. That cells from female donors are the ones expressing XIST, corresponding to the “bell curve” in the histogram of all cells.\
+\*\*A. That cells from female donors are the ones expressing XIST, corresponding to the “bell curve” in the histogram of all cells.\
 B. That cells from male donors do not express XIST, matching the large peak at zero in the histogram.\
 C. That XIST expression is highly sex-dependent: cells from male donors show little to no expression, while female donor cells express XIST at varying levels.\
 D. All of the above.\
-\**
+\*\*
 
 You can see that female cells display that nice bell-shaped curve of expression—most produce **XIST** mRNA, with some expressing a bit more or less. In contrast, male cells only show the tall bar at zero, indicating almost no **XIST** expression.
 
@@ -376,4 +376,8 @@ You’ve completed the pre-lab – great job! Below are some extra resources tha
 
 - Want to read the paper by Gabitto et al. (2024) describing the SEA-AD project?  It is an open-access article (hooray!) available here: <https://www.nature.com/articles/s41593-024-01774-5> 
 
-Here is a video from the Allen Institute on the SEA-AD project: <https://www.youtube.com/watch?v=lcS3o1N22Bc&t=2s>
+- Want to watch a video explaining the project?
+
+  - Short version (7.5 minutes) is here: <https://www.youtube.com/watch?v=QON_qTo06oM>
+
+  - Longer versoin is here: <https://www.youtube.com/watch?v=lcS3o1N22Bc&t=2s>
