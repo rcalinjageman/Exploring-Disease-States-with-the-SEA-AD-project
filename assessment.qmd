@@ -2,6 +2,12 @@
 title: "Assessment"
 ---
 
+# Assessment data;
+
+![Activity feedback distributions by item and institution](images/Feedback_Distribution.png){fig-alt="Activity feedback distributions by item and institution"}
+
+![Change in probability of highest confidence by item and institution](images/Model_Plot_Ratings.png){fig-alt="Change in probability of highest confidence by item and institution"}
+
 Below are the learning goals/skills we defined for the activity and a set of assessment items that can be used to evaluate them. The assessment items are in three types: confidence ratings, feedback on the activity, and objective knowledge.
 
 # Learning Goals and Skills
