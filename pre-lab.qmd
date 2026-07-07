@@ -5,9 +5,9 @@ bibliography: references.bib
 
 The goals of this pre-lab are to:
 
--   Gain an understanding of the SEA-AD project.
+- Gain an understanding of the SEA-AD project.
 
--   Build confidence in accessing the SEA-AD interface and exploring this vast dataset.
+- Build confidence in accessing the SEA-AD interface and exploring this vast dataset.
 
 ### What is the SEA-AD project?
 
@@ -90,8 +90,7 @@ The remainder of the text and figures in this section are adapted from their wor
 ![](images/figure_prelab_06.png){#fig-prelab-06}
 
 **Check Your Understanding:\
-\
-**
+\**
 
 **Q6: The SEA-AD project measured \_\_\_\_ in individual cells from the brains of healthy and AD donors.**
 
@@ -238,10 +237,10 @@ This histogram looks unusual! Let’s try to make sense of it.
 
 First, notice the huge bar right at zero. What does that tell you?
 
--   That there are zero cells that fail to express **XIST**.\
-    OR
+- That there are zero cells that fail to express **XIST**.\
+  OR
 
--   That there are a large number of cells that don’t express **XIST** at all.
+- That there are a large number of cells that don’t express **XIST** at all.
 
 If you chose the second option, great job! That big bar shows there’s a large group of cells with almost no **XIST** expression.
 
@@ -251,10 +250,10 @@ Now, take a look at the other cluster of bars forming a nice “bell curve”:
 
 What does this other set of bars tell us?
 
--   That there is a group of cells expressing **XIST**, but at varying levels—some a little, some more.\
-    OR
+- That there is a group of cells expressing **XIST**, but at varying levels—some a little, some more.\
+  OR
 
--   That **XIST** must encode a protein shaped like a bell.
+- That **XIST** must encode a protein shaped like a bell.
 
 This histogram reveals two distinct patterns of **XIST** expression: a large group of cells that don’t express it at all, and another group that does, with varying amounts.
 
@@ -294,8 +293,7 @@ Right away, the Cell×Gene explorer is showing you the XIST expression broken do
 B. That cells from male donors do not express XIST, matching the large peak at zero in the histogram.\
 C. That XIST expression is highly sex-dependent: cells from male donors show little to no expression, while female donor cells express XIST at varying levels.\
 D. All of the above.\
-\
-**
+\**
 
 You can see that female cells display that nice bell-shaped curve of expression—most produce **XIST** mRNA, with some expressing a bit more or less. In contrast, male cells only show the tall bar at zero, indicating almost no **XIST** expression.
 
@@ -360,11 +358,11 @@ Now that you have a good handle on the tool, explore the expression of **ZNF536*
 
 Think about the following questions as you are checking/unchecking various cell types:
 
--   Are there some cell types that express **ZNF536** strongly?
+- Are there some cell types that express **ZNF536** strongly?
 
--   Are there others with little or no expression?
+- Are there others with little or no expression?
 
--   Can you identify any patterns that explain which cell types express this gene?
+- Can you identify any patterns that explain which cell types express this gene?
 
 **Q.15: Create a figure comparing expression between two cell types: one with high ZNF536 expression and one with low or no expression. Combine your images into a single, well-labeled slide and submit the figure.**
 
@@ -374,8 +372,8 @@ You’ve completed the pre-lab – great job! Below are some extra resources tha
 
 ### More Resources
 
--   Feeling a bit shaky about Cell×Gene explorer?  There is an even more extensive tutorial available here: <https://cellxgene.cziscience.com/docs/04__Analyze%20Public%20Data/4_1__Hosted%20Tutorials> 
+- Feeling a bit shaky about Cell×Gene explorer?  There is an even more extensive tutorial available here: <https://cellxgene.cziscience.com/docs/04__Analyze%20Public%20Data/4_1__Hosted%20Tutorials> 
 
--   Want to read the paper by Gabitto et al. (2024) describing the SEA-AD project?  It is an open-access article (hooray!) available here: <https://www.nature.com/articles/s41593-024-01774-5> 
+- Want to read the paper by Gabitto et al. (2024) describing the SEA-AD project?  It is an open-access article (hooray!) available here: <https://www.nature.com/articles/s41593-024-01774-5> 
 
 Here is a video from the Allen Institute on the SEA-AD project: <https://www.youtube.com/watch?v=lcS3o1N22Bc&t=2s>

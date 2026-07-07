@@ -9,13 +9,13 @@ Our research question is: **What gene expression changes are associated with Alz
 
 That’s a pretty focused question—so where did it come from? Here’s the background:
 
--   Microglia have been strongly implicated in the progression of Alzheimer’s disease [@keren-shaul2017]
+- Microglia have been strongly implicated in the progression of Alzheimer’s disease [@keren-shaul2017]
 
--   The middle temporal gyrus (MTG) is a brain region key to memory processing and among the first areas to show AD-related dysfunction [@papeo2019; @chen2022].
+- The middle temporal gyrus (MTG) is a brain region key to memory processing and among the first areas to show AD-related dysfunction [@papeo2019; @chen2022].
 
--   The SEA-AD team’s own analysis [@gabitto2024] found that microglia exhibit some of the most significant gene expression changes associated with AD. This gives us a chance to explore one of their major findings firsthand.
+- The SEA-AD team’s own analysis [@gabitto2024] found that microglia exhibit some of the most significant gene expression changes associated with AD. This gives us a chance to explore one of their major findings firsthand.
 
--   By focusing only on microglia, we’ll load a smaller subset of the SEA-AD database – important because the site can be unstable or slow when handling the full dataset.
+- By focusing only on microglia, we’ll load a smaller subset of the SEA-AD database – important because the site can be unstable or slow when handling the full dataset.
 
 ### Make Predictions
 
@@ -31,15 +31,11 @@ Before we begin, make some predictions about what we might find.
 
 4.  **Nearly all the genes**
 
-**Q2: Think about the complexity of Alzheimer’s disease and the number of cellular pathways it might impact. Would you expect just a handful of genes to be involved, or a much broader shift in gene expression?**
-
-**Q3. When considering the impact of Alzheimer’s disease on gene expression, how would you describe the changes you expect to see?**
+**Q2. When considering the impact of Alzheimer’s disease on gene expression, how would you describe the changes you expect to see?**
 
 1.  **Qualitative differences – clear, distinct changes like the “on/off” pattern we saw with XIST expression.**
 
 2.  **More subtle changes – shifts in the level of expression rather than outright presence or absence, meaning the differences are a matter of degree rather than kind.**
-
-**Q4: Reflect on whether disease-related gene expression changes are likely to be dramatic and categorical, or more nuanced and gradual.**
 
 ### Start a Lab Notebook
 
@@ -63,7 +59,7 @@ You should now be in the basic SEA-AD explorer, but zoomed in to show only the m
 
 ![](images/figure_lab_02.png){#fig-lab-02}
 
-**Q5: How many individual cells are in this dataset?**
+**Q3: How many individual cells are in this dataset?**
 
 1.  **0 cells**
 
@@ -71,7 +67,7 @@ You should now be in the basic SEA-AD explorer, but zoomed in to show only the m
 
 3.  **Impossible to tell**
 
-**Q6: Think back to the pre-lab.  How many individual donors are in this study?**
+**Q4: Think back to the pre-lab.  How many individual donors are in this study?**
 
 1.  **Just 1, all of these cells are from one human**
 
@@ -87,8 +83,6 @@ Let’s start by looking for a difference in gene expression in a gene already k
 
     ![](images/figure_lab_03.png){#fig-lab-03}
 
-<!-- -->
-
 2.  Use the water-drop tool to color code the cells by **APOE** expression. Then, expand the **APOE** gene entry to view its overall expression histogram. Take a moment to interpret what this visualization tells you about **APOE** expression in microglia. What patterns or levels of expression do you notice?
 
     ![](images/figure_lab_04.png){#fig-lab-04}
@@ -99,13 +93,13 @@ Let’s start by looking for a difference in gene expression in a gene already k
 
 4.  Use the check and uncheck buttons to toggle **APOE** expression visualization for each group individually. Each time you switch groups, be sure to move your mouse pointer back to the UMAP to avoid unintended highlighting of other cells.
 
-**Q7: Based on what you see, do the expression patterns appear different between the two groups? Do these histograms seem very different to you?**
+**Q5: Based on what you see, do the expression patterns appear different between the two groups? Do these histograms seem very different to you?**
 
-**Q8: Create a figure comparing the two UMAPs of normal versus AD donors. The figure should look something like what you see below. This will be Figure 1**
+**Q6: Create a figure comparing the two UMAPs of normal versus AD donors. The figure should look something like what you see below. This will be Figure 1**
 
 ![](images/figure_lab_06.png){#fig-lab-06}
 
-**Q9: Do the APOE gene expression UMAPs look very different between microglia from Alzheimer’s donors and healthy donors?**
+**Q7: Do the APOE gene expression UMAPs look very different between microglia from Alzheimer’s donors and healthy donors?**
 
 1.  **Yeah, microglia from AD donors have way more APOE expression.**
 
@@ -131,7 +125,7 @@ In the “Supertype” roll down, uncheck all of the microglia supertypes, excep
 
 ![](images/figure_lab_07a.png)
 
-In the disease roll down, uncheck the dementia box and check the **normal box** so that only microglia from the normal donors are selected.  This should provide 20,124 cells.
+In the disease roll down, uncheck the dementia box and check the **normal box** so that only microglia from the normal donors are selected. 
 
 ![](images/figure_lab_07.png){#fig-lab-07}
 
@@ -187,7 +181,10 @@ Now, rename the **Pop 2 high** list. Click the three-dot menu (**…**) for that
 
 ![](images/figure_lab_17.png){#fig-lab-17}
 
-You should now have something like this on your screen:
+You have now completed several complex steps to help sort through \*all\*
+the expressed genes in this dataset to see which are most different
+between AD and Control donors.  You should now have something like this
+on your screen
 
 ![](images/figure_lab_18.png){#fig-lab-18 width="750"}
 
@@ -203,45 +200,45 @@ Thus, while a differential gene analysis is a great tool, it’s important to kn
 
 Let’s start with the genes up-regulated in microglia from Alzheimer’s donors:
 
--   Expand the “Higher in Alzheimer's Microglia” list
+- Expand the “Higher in Alzheimer's Microglia” list
 
-    ![](images/figure_lab_19.png){#fig-lab-19}
+  ![](images/figure_lab_19.png){#fig-lab-19}
 
--   The first gene listed is MT-ND3.  Use the eye-drop tool to color-code the UMAP for MT-ND3 expression.  Also, expand this gene to see its overall expression histogram.
+- The first gene listed is MT-ND3.  Use the eye-drop tool to color-code the UMAP for MT-ND3 expression.  Also, expand this gene to see its overall expression histogram.
 
--   Explore the expression profile for MT-ND3.  Look at its overall expression histogram.  Think about it: What is this histogram telling you? Do all cells express this gene?
+- Explore the expression profile for MT-ND3.  Look at its overall expression histogram.  Think about it: What is this histogram telling you? Do all cells express this gene?
 
-    ![](images/figure_lab_20.png){#fig-lab-20}
+  ![](images/figure_lab_20.png){#fig-lab-20}
 
--   Compare expression between microglia from normal and AD donors:
+- Compare expression between microglia from normal and AD donors:
 
-    ![](images/figure_lab_21.png){#fig-lab-21}
+  ![](images/figure_lab_21.png){#fig-lab-21}
 
-    -   Roll down the **disease** filter.  Compare the by-group histograms.  Think about it: Do they seem that different?
+  - Roll down the **disease** filter.  Compare the by-group histograms.  Think about it: Do they seem that different?
 
-    -   Isolate down to AD (dementia) or normal microglia, screen shot each, and line them up to compare. 
+  - Isolate down to AD (dementia) or normal microglia, screen shot each, and line them up to compare. 
 
-**Q10 Make a figure comparing expression of MT-ND3 in the PVM_3 Microglia of Normal and Dementia Donors. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be your Figure 2.**  Your figure should end up looking something like this:
+**Q8 Make a figure comparing expression of MT-ND3 in the PVM_3 Microglia of Normal and Dementia Donors. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be your Figure 2 in the file you will upload at the end of the lab.** Your figure should end up looking some
 
 ![](images/figure_lab_22a.png){#fig-lab-22}
 
 Think about it!
 
--   Can you see a clear difference?  Is it dramatic/qualitative or more a matter of degree/quantitative?  Are all AD microglia “abnormal” (different in expression compared to control) or only some?
+- Can you see a clear difference?  Is it dramatic/qualitative or more a matter of degree/quantitative?  Are all AD microglia “abnormal” (different in expression compared to control) or only some?
 
--   What does this gene do?  Use the (i) information button to find out more about it. Note: information is not always available for all genes. If no info is listed, look it up here: <https://www.ncbi.nlm.nih.gov/gene/> or here <https://www.genecards.org/>
+- What does this gene do?  Use the (i) information button to find out more about it. Note: information is not always available for all genes. If no info is listed, look it up here: <https://www.ncbi.nlm.nih.gov/gene/> or here <https://www.genecards.org/>
 
--   What, exactly, do mitochondria do?
+- What, exactly, do mitochondria do?
 
-**Q11: Write, in your own words, about the difference in expression you are seeing for MT-ND3 based on your Figure 2.  Would you call this a dramatic change in expression or a subtle change in expression?  Does it seem like most microglia have higher expression in AD or just some?**
+**Q9: Write, in your own words, about the difference in expression you are seeing for MT-ND3 based on your Figure 2.  Would you call this a dramatic change in expression or a subtle change in expression?  Does it seem like most microglia have higher expression in AD or just some?**
 
 ### Explore More of the Up-Regulated Genes
 
 Keep exploring the up-regulated list. 
 
--   What happens to the degree of difference as you work through the list?  Do the differences get more noticeable or less?  Why?  How far down the list before you don’t really feel confident about a difference? 
+- What happens to the degree of difference as you work through the list?  Do the differences get more noticeable or less?  Why?  How far down the list before you don’t really feel confident about a difference? 
 
--   Do you notice some commonality in the functions of these genes?
+- Do you notice some commonality in the functions of these genes?
 
 Likely you are noticing a lot of mitochondrial genes! That sounds exciting, but unfortunately the SEA-AD researchers determined that this was likely due to a **confound** in how the tissue was processed. Ugh, science is hard! Don't worry, though, *some* of the genes held up to the extra corrections the SEA-AD researchers took to weed out confounds. We're about to meet one of them.
 
@@ -249,65 +246,71 @@ Likely you are noticing a lot of mitochondrial genes! That sounds exciting, but 
 
 While the mitochondrial genes on this list are probably *not* valid indicators of Alzheimer's, one gene on this list was still shown to be differently expressed even after the SEA-AD researchers corrected for a variety of confounds and processing issues. That gene is PTPRG. You'll find it in the 11th position on this list.
 
--   Find PTPRG on the list of "Higher in Alzheimer's Microglia" list. Use the eye-drop tool to color-code the UMAP for PTPRG expression.  Also, expand this gene to see its overall expression histogram.
+- Find PTPRG on the list of "Higher in Alzheimer's Microglia" list. Use the eye-drop tool to color-code the UMAP for PTPRG expression.  Also, expand this gene to see its overall expression histogram.
 
--   Explore the expression profile for PTPRG.  Look at its overall expression histogram.  Think about it: What is this histogram telling you? Do all cells express this gene?
+- Explore the expression profile for PTPRG.  Look at its overall expression histogram.  Think about it: What is this histogram telling you? Do all cells express this gene?
 
-    ![](images/figure_lab_20.png)
+  ![](images/figure_lab_20.png)
 
--   Compare expression between microglia from normal and AD donors:
+- Compare expression between microglia from normal and AD donors:
 
-    ![](images/figure_lab_21.png)
+  ![](images/figure_lab_21.png)
 
--   Roll down the **disease** filter.  Compare the by-group histograms.  Think about it: Do they seem that different?
+- Roll down the **disease** filter.  Compare the by-group histograms.  Think about it: Do they seem that different?
 
--   Isolate down to AD (dementia) or normal microglia, screen shot each, and line them up to compare. 
+- Isolate down to AD (dementia) or normal microglia, screen shot each, and line them up to compare. 
 
-**Q12 Make a figure comparing PTPRG expression in the PVM_3 Microglia of Normal and Dementia Donors. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will your Figure 3.**  Your figure should end up looking something like this:
+**Q10 Make a figure comparing PTPRG expression in the PVM_3 Microglia of Normal and Dementia Donors. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will your Figure 3 in the file you upload at the end of the lab; it will show the comparison of PTPRG expression between AD and control donors.**  Your figure should end up looking something like this:
 
 ![](images/figure_lab_22.png){width="657"}
 
-**Q13: Write, in your own words, about the difference in expression you are seeing for PTPRG based on your created Figure 1.  Would you call this a dramatic change in expression or a subtle change in expression?  Does it seem like most microglia have higher expression in AD or just some?**
+**Q11: Write, in your own words, about the difference in expression you are seeing for PTPRG based on your created  Would you call this a dramatic change in expression or a subtle change in expression?  Does it seem like most microglia have higher expression in AD or just some?**
 
-**Q14: Now that you've explored some of the up-regulated genes, write a short overall summary in your own words about your conclusions. Try to express yourself clearly and succinctly (briefly) and without jargon. Your paragraph should help another reader understand:**
+**Q12: Now that you've explored some of the up-regulated genes, write a short overall summary in your own words about your conclusions. Try to express yourself clearly and succinctly (briefly) and without jargon. Your paragraph should help another reader understand:**
 
--   **What is the association between AD and gene expression in MTG microglia?**
+- **What is the association between AD and gene expression in MTG microglia?**
 
--   **Are there widespread differences or are they more subtle?**
+- **Are there widespread differences or are they more subtle?**
 
--   **Knowing that the mitochondrial genes are probably artifacts, what does the PTRPG gene possibly suggest about the Alzheimer's disease state in microglia?**
+- **Knowing that the mitochondrial genes are probably artifacts, what does the PTRPG gene possibly suggest about the Alzheimer's disease state in microglia?**
 
 ### Explore the Most Down-Regulated Genes
 
 Now explore the down-regulated genes:
 
--   Browse through the list
+- Browse through the list
 
--   Make specific gene expression comparison figures (well labelled) for the **top two down-regulated genes**. This will be your Figures 4 and 5.
+- Make specific gene expression comparison figures (well labelled) for the **top two down-regulated genes**. This will be your Figures 4 and 5.
 
--   Work down the list to where you no longer feel very confident about the differences, though you don’t have to make figures past the first two genes
+- Work down the list to where you no longer feel very confident about the differences, though you don’t have to make figures past the first two genes
 
-**Q15: Make figures comparing expression between normal and dementia donors, one figue for each of the two top down-regulated genes. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be Figures 4 (top down-regulated gene) and Figure 5 (2nd most down-regulated gene).**
+**Q13: Make figures comparing expression between normal and dementia donors, one figue for each of the two top down-regulated genes. Be sure to label your images so you know which image comes from which group as you will be turning this in. This will be Figures 4 (top down-regulated gene) and Figure 5 (2nd most down-regulated gene).**
 
-**Q16: Write up a short paragraph summarizing your exploration of the down-regulated genes**
+**Q14: Write up a short paragraph summarizing your exploration of the down-regulated genes**
+
+- **What is the *association* between AD and *decreased* gene expression in MTG microglia?**
+
+- **Are there widespread differences or are they more subtle?**
+
+- **Are there consistencies in the types of genes related to AD?**
 
 ### Your Lab Hand-In So Far
 
 **You should now have:**
 
-1.  **Figure 1: A figure comparing APOE expression in the microglia from normal and AD donors (Q8)**
+1.  **Figure 1: A figure comparing APOE expression in the microglia from normal and AD donors (Q6)**
 
-2.  **Figure 2: A figure comparing the MT-ND3 between normal and AD donors (Q10)**
+2.  **Figure 2: A figure comparing the MT-ND3 between normal and AD donors (Q8)**
 
-3.  **Figure 3: A figure comparing the PTPRG between normal and AD donors (Q12)**
+3.  **Figure 3: A figure comparing the PTPRG between normal and AD donors (Q10)**
 
-4.  **Short intepretation paragraphs summarizing your conclusion about the up-regulated genes: MT-ND3, PTPRG, and overall (Q11, Q13, Q14)**
+4.  **Short intepretation paragraphs summarizing your conclusion about the up-regulated genes: MT-ND3, PTPRG, and overall (Q9, Q11, Q12)**
 
-5.  **Figure 4: A figure comparing the most down-regulate gene between normal and dementia donors (P2RY12, Q15).**
+5.  **Figure 4: A figure comparing the most down-regulate gene between normal and dementia donors (PQ13).**
 
-6.  **Figure 5: A figure comparing the 2nd most down-regulated gene between normal and dementia donors (CX3CR1, A15).**
+6.  **Figure 5: A figure comparing the 2nd most down-regulated gene between normal and dementia donors (Q13).**
 
-7.  **A short paragraph summarizing your analysis of the down-regulated genes (Q16)**
+7.  **A short paragraph summarizing your analysis of the down-regulated genes (Q14)**
 
 ### Thinking Critically About Confounds
 
@@ -319,16 +322,16 @@ We can check this worry. Specifically, we can look at if the mitochonrdrial gene
 
 **Examine if expression of PTPRG differs in the microglia of control males and females:**
 
--   In the disease drop down, check normal only
+- In the disease drop down, check normal only
 
--   Color code by PTPRG
+- Color code by PTPRG
 
--   Then in the sex drop-down, check males only and then females only, again screen shot-ing each group on their own and making a figure for side-by-side comparison.
+- Then in the sex drop-down, check males only and then females only, again screen shot-ing each group on their own and making a figure for side-by-side comparison.
 
 **Q18: Within these normal donors, does it look like females express more PTPRG in their microglia? Why is the fact that this seems so similar good news?**
 
 ### Wrapping up: Some things to think about
 
--   We saw that the comparison of Alzheimer’s Disease and normal cells was confounded by sex (the AD group had a lot higher proportion of females than the control group). Think about it: How do you think the original researchers of the SEA-AD project dealt with this issue?
+- We saw that the comparison of Alzheimer’s Disease and normal cells was confounded by sex (the AD group had a lot higher proportion of females than the control group). Think about it: How do you think the original researchers of the SEA-AD project dealt with this issue?
 
--   The SEA-AD project sequenced over 1.2 million cells.  But these came from only 84 individual donors.  What, really, is the sample size?  Normally when we have millions of data points we can feel pretty confident about results generalizing, but should we be more cautious here?  Why?
+- The SEA-AD project sequenced over 1.2 million cells.  But these came from only 84 individual donors.  What, really, is the sample size?  Normally when we have millions of data points we can feel pretty confident about results generalizing, but should we be more cautious here?  Why?

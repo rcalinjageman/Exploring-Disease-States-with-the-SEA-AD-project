@@ -4,12 +4,13 @@ title: "News"
 
 Changelog
 
--   2025-09-18 - Launched!
+- 2026-07-18 - Updates and fixes to lab and updated Canvas export file
+- 2025-09-18 - Launched!
 
 Roadmap
 
--   Develop website and lab documents
+- ~~Develop website and lab documents~~
 
--   Develop Canvas version
+- ~~Develop Canvas version~~
 
--   Assessment data
+- Assessment data
