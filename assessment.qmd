@@ -40,7 +40,7 @@ Below are the learning goals/skills we defined for the activity and a set of ass
 
 # Self-reported Assessment Items
 
-## *Condifence Ratings; Can use Pre & Post* 
+## *Condifence Ratings; Can use Pre & Post*
 
 On a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Strongly Disagree
 
@@ -96,7 +96,7 @@ On a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Stron
 
 ## **Content LO1:**
 
-1.   What does transcriptomic data tell us?
+1.  What does transcriptomic data tell us?
 
 A. the exact age of a cell.
 
@@ -131,9 +131,9 @@ D. Expressing foreign genes in a cell and measuring amount of protein produced
 4.  Imagine you are designing a study on neuroinflammation in Alzheimer’s disease using RNA-seq. Why would it be important to compare donors with Alzheimer’s to healthy donors of a similar age?
 
     A. To ensure that differences in inflammatory gene expression are not simply due to normal aging of the immune system.\
-     B. To control for generational or cohort effects that might influence baseline immune gene activity.\
-     C. To reduce the influence of other age-related factors, such as changes in microglial activation, that could confound results.\
-     D. All of the above.
+    B. To control for generational or cohort effects that might influence baseline immune gene activity.\
+    C. To reduce the influence of other age-related factors, such as changes in microglial activation, that could confound results.\
+    D. All of the above.
 
 5.  What is the biological function of the PTPRG gene?
 
@@ -189,7 +189,7 @@ C. All differentially expressed genes are products of single-cell dropout events
 
 D. Differentially expressed genes may reflect APOE4 associated pathways, but interpretation should consider AD status and other demographic variables.
 
-## **Content LO4:**  
+## **Content LO4:**
 
 9.  In UMAP plots, a cluster represents:
 
@@ -233,7 +233,7 @@ C. Color-coded clusters or overlays indicating the comparison of interest
 
 D. A bar graph showing the total number of genes expressed in each cell
 
-## **Skills LO5:**  
+## **Skills LO5:**
 
 13. In the Seattle Alzheimer’s Brain Cell Atlas (SEA-AD), you can explore:
 
