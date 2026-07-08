@@ -2,7 +2,21 @@
 title: "Assessment"
 ---
 
-# Assessment data;
+# Assessment data
+
+Overall, completing the activity produced large gains in knowledge related to the learning objectives:
+
+| Effect   | Effect Size | LL   | UL   | SE   | N   |
+|----------|-------------|------|------|------|-----|
+| Post     | 0.76        | 0.72 | 0.81 | 0.02 | 130 |
+| Pre      | 0.56        | 0.52 | 0.60 | 0.02 | 91  |
+| Post-Pre | 0.19        | 0.13 | 0.26 | 0.03 |     |
+
+In standardized terms: *d*~unbiased~ = 0.85 95% CI \[0.57, 1.13\]
+
+![](images/Pre_Post_Overall.png)
+
+![Changes in Quiz Scores by Institution](images/Pre_Post_By_School.png)
 
 ![Activity feedback distributions by item and institution](images/Feedback_Distribution.png){fig-alt="Activity feedback distributions by item and institution"}
 

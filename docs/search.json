@@ -44,7 +44,7 @@
     "href": "assessment.html",
     "title": "Assessment",
     "section": "",
-    "text": "Activity feedback distributions by item and institution\n\n\n\n\n\nChange in probability of highest confidence by item and institution\n\n\nBelow are the learning goals/skills we defined for the activity and a set of assessment items that can be used to evaluate them. The assessment items are in three types: confidence ratings, feedback on the activity, and objective knowledge.",
+    "text": "Overall, completing the activity produced large gains in knowledge related to the learning objectives:\n\n\n\nEffect\nEffect Size\nLL\nUL\nSE\nN\n\n\n\n\nPost\n0.76\n0.72\n0.81\n0.02\n130\n\n\nPre\n0.56\n0.52\n0.60\n0.02\n91\n\n\nPost-Pre\n0.19\n0.13\n0.26\n0.03\n\n\n\n\nIn standardized terms: dunbiased = 0.85 95% CI [0.57, 1.13]\n\n\n\n\nChanges in Quiz Scores by Institution\n\n\n\n\n\nActivity feedback distributions by item and institution\n\n\n\n\n\nChange in probability of highest confidence by item and institution\n\n\nBelow are the learning goals/skills we defined for the activity and a set of assessment items that can be used to evaluate them. The assessment items are in three types: confidence ratings, feedback on the activity, and objective knowledge.",
     "crumbs": [
       "Home",
       "Assessment"
