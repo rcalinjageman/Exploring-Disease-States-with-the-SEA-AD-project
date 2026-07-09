@@ -26,8 +26,10 @@ website:
       href: lab.qmd
     - text: Extensions
       href: extensions.qmd
-    - text: Assessment
-      href: assessment.qmd
+    - section: "Assessment"
+      contents:
+        - items.qmd
+        - data.qmd
 format:
   html:
     theme: 

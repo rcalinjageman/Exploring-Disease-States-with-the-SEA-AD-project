@@ -1,62 +1,12 @@
 ---
-title: "Assessment"
+title: "Items"
 ---
 
-# Assessment data
+Whiel developing this lab we iteritively refined a set of learning goals and skills (@sec-learning-goals-and-skills). We then used these learning goals and skills to develop objective (@sec-objective-assessment-items) and self-reported (@sec-confidence-ratings-u) measures of learning as well as feedback items.
 
-## Objective Knowledge
+# Learning Goals and Skills {#sec-learning-goals-and-skills}
 
-Students completed short, multiple-choice measures of objective knowledge before the pre-lab and at the end of the complete lab. Items on the objective knowledge test were matched to learning objectives and skills for the activity (items are listed below).
-
-Examining scores overall showed large gains in knowledge related to the learning objectives:
-
-![Changes in Objective Knowledge Scores](images/objective_overall.png){width="831"}
-
-| Effect   | Effect Size | LL   | UL   | SE   | N   |
-|----------|-------------|------|------|------|-----|
-| Post     | 0.76        | 0.72 | 0.81 | 0.02 | 130 |
-| Pre      | 0.56        | 0.52 | 0.60 | 0.02 | 91  |
-| Post-Pre | 0.19        | 0.13 | 0.26 | 0.03 |     |
-
-In standardized terms: *d*~unbiased~ = 0.85 95% CI \[0.57, 1.13\]
-
-Breaking this down by school shows some diversity in student learning, with students completing the activity in an online setting (Dominican University) showing the smallest gains:
-
-![Objective learning gains by school](images/objective_panel.png){width="1062"}
-
-## Confidence Ratings
-
-Students rated their confidence on knowledge and skills related to the activity both before the pre-lab and after completing the lab. Confidence was rated on a scale from 1-5. Self-reported learning gains have poor validity, but we did not very large increases in student confidence for knowledge and skills related to the activity.
-
-![](images/confidence_gains_overall.png){width="1063"}
-
-| Confidence item                        | effect_size |   LL |   UL |   SE |     df |
-|:-----------------------------|----------:|------:|-------:|-------:|-------:|
-| RNA-seq principles                     |        1.16 | 0.88 | 1.44 | 0.14 | 222.79 |
-| Neuroinflammation in AD                |        1.22 | 0.93 | 1.51 | 0.15 | 223.73 |
-| Cell type classification in AD         |        1.86 | 1.60 | 2.13 | 0.13 | 216.89 |
-| UMAP interpretation                    |        2.83 | 2.61 | 3.06 | 0.11 | 199.15 |
-| CellxGene navigation                   |        2.95 | 2.76 | 3.14 | 0.10 | 212.59 |
-| Qualitative gene expression comparison |        2.62 | 2.39 | 2.86 | 0.12 | 224.95 |
-| CellxGene filtering                    |        2.82 | 2.61 | 3.02 | 0.10 | 217.11 |
-| Differential gene expression           |        2.07 | 1.81 | 2.33 | 0.13 | 222.93 |
-| Create figures                         |        1.88 | 1.62 | 2.14 | 0.13 | 211.24 |
-| Gene function interpretation           |        1.84 | 1.54 | 2.13 | 0.15 | 226.00 |
-| Communicate findings                   |        1.88 | 1.63 | 2.14 | 0.13 | 225.21 |
-
-Breaking this down by school showed roughly similar levels of confidence gains across contexts:
-
-![Increase in chance of highest confidence by item and school](images/confidence_panel.png){width="931"}
-
-## Feedback
-
-Finally, students gave feedback on different aspects of the activity (1-5 rating scale):
-
-![Student feedback on aspects of the lab](images/feedback_overall.png){width="996"}
-
-# Learning Goals and Skills
-
-Below are the learning goals/skills we defined for the activity and a set of assessment items that can be used to evaluate them. The assessment items are in three types: confidence ratings, feedback on the activity, and objective knowledge.
+Below are the learning goals/skills we defined for the activity and a set of assessment items that can be used to evaluate them.
 
 ## [Content:]{.underline}
 
@@ -84,9 +34,9 @@ Below are the learning goals/skills we defined for the activity and a set of ass
 
 11. Communicate transcriptomic findings through figures (e.g., UMAPs) and summaries that integrate data interpretation with background literature.
 
-# Self-reported Assessment Items
+# Self-reported Assessment Items {#sec-self-reported-assessment-items}
 
-## *Condifence Ratings; Can use Pre & Post*
+## *Confidence Ratings; Used Pre- and Post-Lab* {#sec-confidence-ratings-u}
 
 On a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Strongly Disagree
 
@@ -114,7 +64,7 @@ I feel confident in my ability to:
 
 11. Communicate transcriptomic findings through figures (e.g., UMAPs) and summaries that integrate data interpretation with background literature.
 
-## Feedback, Post Only
+## Feedback, Post Only {#sec-feedback-post-only}
 
 On a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Strongly Disagree
 
@@ -138,7 +88,7 @@ On a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Stron
 
 10. I see value in using open datasets like SEA-AD in my future coursework or research.
 
-# Objective Assessment Items
+# Objective Assessment Items {#sec-objective-assessment-items}
 
 ## **Content LO1:**
 

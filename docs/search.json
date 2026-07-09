@@ -29,6 +29,166 @@
     ]
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Defining Disease: Exploring Single-Cell Gene Expression Associated with Alzheimer’s Disease",
+    "section": "",
+    "text": "This is free, open source set of materials for conducting an advanced-undergraduate lab activity exploring disease states with the Seattle Alzheimer’s Disease Atlas (SEA-AD), an open-source data set created by the Allen Institute.\nThese materials were developed by: Theresa McKim (University of Nevada, Reno), Shveta Parekh (Boston College), Thomas Newpher (Duke University), and Lucinda Carnell (Central Washington University), and Bob Calin-Jageman (Dominican University) in partnership in partnership with the Developing Open Neuroscience Teaching Tools Workshop offered through the Allen Institute Summer Workshop. The development of this lab was inspired by a fantastic activity created by Madison Meuler and Kaitlyn Casimo of the Allen Institute, with several figures and portions of the pre-lab text adapted directly from their work. A big thanks to Madison and Kaitlyn for their creativity and generosity in sharing their materials! We also thank Rachel Penton, Lauren Alfiler, Jeremy Miller, and the many people at Allen who helped support this project.\nHere you will find a complete set of lab materials you can adapt for your own courses.\n\nThese pages present the lab in html format, with each page also having a pdf version you can download.\nThe github repository for this project provides these resources in Markdown format, available for you to remix and update: https://github.com/rcalinjageman/Exploring-Disease-States-with-the-SEA-AD-project\nFor use with an LMS:\n\nThis zip file is a Canvas export in Common Cartridge Formate. It should enable you to import the pre-lab and lab activity, each as a stand-alone, self-paced online activity that you can customize. Enjoy, and if you use these resources, please cite their source!\n\nOnline resources you can provide to your students\nAssessment: We provide a set of potential assessment items, both objective and self-reported, and provide Qualtrics exports you can use to collect your own assessment data here.\nCellxGene Explorer Tutorial: Can be provided to give a more detailed overview of how to navigate the CellxGene explorer: https://cellxgene.cziscience.com/docs/04__Analyze%20Public%20Data/4_1__Hosted%20Tutorials \nSupplemental videos\n\nThe Allen Institute has a short webinar about this project here: https://www.youtube.com/watch?v=QON_qTo06oM\nAnd a longer webinar here: https://www.youtube.com/watch?v=lcS3o1N22Bc"
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Data",
+    "section": "",
+    "text": "Students completed short, multiple-choice measures of objective knowledge before the pre-lab and at the end of the complete lab. Items on the objective knowledge test were matched to learning objectives and skills for the activity (items are listed below).\nExamining scores overall showed large gains in knowledge related to the learning objectives:\n\n\n\nChanges in Objective Knowledge Scores; Individual data, means, and 95% CIs\n\n\n\n\n\nEffect\nEffect Size\nLL\nUL\nSE\nN\n\n\n\n\nPost\n0.76\n0.72\n0.81\n0.02\n130\n\n\nPre\n0.56\n0.52\n0.60\n0.02\n91\n\n\nPost-Pre\n0.19\n0.13\n0.26\n0.03\n\n\n\n\nIn standardized terms: dunbiased = 0.85 95% CI [0.57, 1.13]\nBreaking this down by school shows some diversity in student learning, with students completing the activity in an online setting (Dominican University) showing the smallest gains:\n\n\n\nObjective Learning Gains by School; Individual data, means, and 95% CIs\n\n\n\n\n\nStudents rated their confidence on knowledge and skills related to the activity both before the pre-lab and after completing the lab. Confidence was rated on a scale from 1-5. Self-reported learning gains have poor validity, but we did not very large increases in student confidence for knowledge and skills related to the activity.\n\n\n\nGains in Confidence Ratings (Pre to Post, 1-5 scale); Dotted-line at 0 indicates no gains; Means and 95% CIs\n\n\n\n\n\n\n\n\n\n\n\n\n\nConfidence item\nEffect Size\nLL\nUL\nSE\ndf\n\n\n\n\nRNA-seq principles\n1.16\n0.88\n1.44\n0.14\n222.79\n\n\nNeuroinflammation in AD\n1.22\n0.93\n1.51\n0.15\n223.73\n\n\nCell type classification in AD\n1.86\n1.60\n2.13\n0.13\n216.89\n\n\nUMAP interpretation\n2.83\n2.61\n3.06\n0.11\n199.15\n\n\nCellxGene navigation\n2.95\n2.76\n3.14\n0.10\n212.59\n\n\nQualitative gene expression comparison\n2.62\n2.39\n2.86\n0.12\n224.95\n\n\nCellxGene filtering\n2.82\n2.61\n3.02\n0.10\n217.11\n\n\nDifferential gene expression\n2.07\n1.81\n2.33\n0.13\n222.93\n\n\nCreate figures\n1.88\n1.62\n2.14\n0.13\n211.24\n\n\nGene function interpretation\n1.84\n1.54\n2.13\n0.15\n226.00\n\n\nCommunicate findings\n1.88\n1.63\n2.14\n0.13\n225.21\n\n\n\nBreaking this down by school showed roughly similar levels of confidence gains across contexts:\n\n\n\nChanges in Chance of Highest Confidence by Item and School; Modeled means and CIs\n\n\n\n\n\nFinally, students gave feedback on different aspects of the activity (1-5 rating scale). Most students gave most aspects of the lab strong feedback. Note that lower scores on “Preferred lecture format”.\n\n\n\nStudent Feedback on Aspects of the Lab; Individual data, means, and 95% CIs\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeedback Item\nEffect Size\nLL\nUL\nSE\ndf\n\n\n\n\nEnjoyed learning about gene expression changes in AD using this lab format\n4.30\n4.15\n4.46\n0.08\n92\n\n\nPreferred lecture format on gene expression and neuroinflammation in AD\n2.84\n2.56\n3.11\n0.14\n92\n\n\nGained more knowledge than lecture or textbook\n3.74\n3.54\n3.94\n0.10\n91\n\n\nEnjoyed CellxGene explorer to interact with data\n4.32\n4.15\n4.50\n0.09\n92\n\n\nEnjoyed qualitative figure comparisons using UMAPs\n4.24\n4.05\n4.42\n0.09\n92\n\n\nLab activity should be used again\n4.30\n4.14\n4.46\n0.08\n92\n\n\nSEA-AD helped me understand real-world data used to study AD\n4.37\n4.19\n4.54\n0.09\n92\n\n\nInterested in asking own research questions in the dataset\n3.58\n3.34\n3.82\n0.12\n92\n\n\nIncreased interest in exploring own research questions with open datasets\n3.88\n3.66\n4.10\n0.11\n92\n\n\nSee value in open datasets in future coursework and research\n4.31\n4.15\n4.48\n0.08\n92",
+    "crumbs": [
+      "Home",
+      "Assessment",
+      "Data"
+    ]
+  },
+  {
+    "objectID": "data.html#objective-knowledge",
+    "href": "data.html#objective-knowledge",
+    "title": "Data",
+    "section": "",
+    "text": "Students completed short, multiple-choice measures of objective knowledge before the pre-lab and at the end of the complete lab. Items on the objective knowledge test were matched to learning objectives and skills for the activity (items are listed below).\nExamining scores overall showed large gains in knowledge related to the learning objectives:\n\n\n\nChanges in Objective Knowledge Scores; Individual data, means, and 95% CIs\n\n\n\n\n\nEffect\nEffect Size\nLL\nUL\nSE\nN\n\n\n\n\nPost\n0.76\n0.72\n0.81\n0.02\n130\n\n\nPre\n0.56\n0.52\n0.60\n0.02\n91\n\n\nPost-Pre\n0.19\n0.13\n0.26\n0.03\n\n\n\n\nIn standardized terms: dunbiased = 0.85 95% CI [0.57, 1.13]\nBreaking this down by school shows some diversity in student learning, with students completing the activity in an online setting (Dominican University) showing the smallest gains:\n\n\n\nObjective Learning Gains by School; Individual data, means, and 95% CIs",
+    "crumbs": [
+      "Home",
+      "Assessment",
+      "Data"
+    ]
+  },
+  {
+    "objectID": "data.html#confidence-ratings",
+    "href": "data.html#confidence-ratings",
+    "title": "Data",
+    "section": "",
+    "text": "Students rated their confidence on knowledge and skills related to the activity both before the pre-lab and after completing the lab. Confidence was rated on a scale from 1-5. Self-reported learning gains have poor validity, but we did not very large increases in student confidence for knowledge and skills related to the activity.\n\n\n\nGains in Confidence Ratings (Pre to Post, 1-5 scale); Dotted-line at 0 indicates no gains; Means and 95% CIs\n\n\n\n\n\n\n\n\n\n\n\n\n\nConfidence item\nEffect Size\nLL\nUL\nSE\ndf\n\n\n\n\nRNA-seq principles\n1.16\n0.88\n1.44\n0.14\n222.79\n\n\nNeuroinflammation in AD\n1.22\n0.93\n1.51\n0.15\n223.73\n\n\nCell type classification in AD\n1.86\n1.60\n2.13\n0.13\n216.89\n\n\nUMAP interpretation\n2.83\n2.61\n3.06\n0.11\n199.15\n\n\nCellxGene navigation\n2.95\n2.76\n3.14\n0.10\n212.59\n\n\nQualitative gene expression comparison\n2.62\n2.39\n2.86\n0.12\n224.95\n\n\nCellxGene filtering\n2.82\n2.61\n3.02\n0.10\n217.11\n\n\nDifferential gene expression\n2.07\n1.81\n2.33\n0.13\n222.93\n\n\nCreate figures\n1.88\n1.62\n2.14\n0.13\n211.24\n\n\nGene function interpretation\n1.84\n1.54\n2.13\n0.15\n226.00\n\n\nCommunicate findings\n1.88\n1.63\n2.14\n0.13\n225.21\n\n\n\nBreaking this down by school showed roughly similar levels of confidence gains across contexts:\n\n\n\nChanges in Chance of Highest Confidence by Item and School; Modeled means and CIs",
+    "crumbs": [
+      "Home",
+      "Assessment",
+      "Data"
+    ]
+  },
+  {
+    "objectID": "data.html#feedback",
+    "href": "data.html#feedback",
+    "title": "Data",
+    "section": "",
+    "text": "Finally, students gave feedback on different aspects of the activity (1-5 rating scale). Most students gave most aspects of the lab strong feedback. Note that lower scores on “Preferred lecture format”.\n\n\n\nStudent Feedback on Aspects of the Lab; Individual data, means, and 95% CIs\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeedback Item\nEffect Size\nLL\nUL\nSE\ndf\n\n\n\n\nEnjoyed learning about gene expression changes in AD using this lab format\n4.30\n4.15\n4.46\n0.08\n92\n\n\nPreferred lecture format on gene expression and neuroinflammation in AD\n2.84\n2.56\n3.11\n0.14\n92\n\n\nGained more knowledge than lecture or textbook\n3.74\n3.54\n3.94\n0.10\n91\n\n\nEnjoyed CellxGene explorer to interact with data\n4.32\n4.15\n4.50\n0.09\n92\n\n\nEnjoyed qualitative figure comparisons using UMAPs\n4.24\n4.05\n4.42\n0.09\n92\n\n\nLab activity should be used again\n4.30\n4.14\n4.46\n0.08\n92\n\n\nSEA-AD helped me understand real-world data used to study AD\n4.37\n4.19\n4.54\n0.09\n92\n\n\nInterested in asking own research questions in the dataset\n3.58\n3.34\n3.82\n0.12\n92\n\n\nIncreased interest in exploring own research questions with open datasets\n3.88\n3.66\n4.10\n0.11\n92\n\n\nSee value in open datasets in future coursework and research\n4.31\n4.15\n4.48\n0.08\n92",
+    "crumbs": [
+      "Home",
+      "Assessment",
+      "Data"
+    ]
+  },
+  {
+    "objectID": "assessment.html",
+    "href": "assessment.html",
+    "title": "Assessment",
+    "section": "",
+    "text": "Students completed short, multiple-choice measures of objective knowledge before the pre-lab and at the end of the complete lab. Items on the objective knowledge test were matched to learning objectives and skills for the activity (items are listed below).\nExamining scores overall showed large gains in knowledge related to the learning objectives:\n\n\n\nChanges in Objective Knowledge Scores\n\n\n\n\n\nEffect\nEffect Size\nLL\nUL\nSE\nN\n\n\n\n\nPost\n0.76\n0.72\n0.81\n0.02\n130\n\n\nPre\n0.56\n0.52\n0.60\n0.02\n91\n\n\nPost-Pre\n0.19\n0.13\n0.26\n0.03\n\n\n\n\nIn standardized terms: dunbiased = 0.85 95% CI [0.57, 1.13]\nBreaking this down by school shows some diversity in student learning, with students completing the activity in an online setting (Dominican University) showing the smallest gains:\n\n\n\nObjective learning gains by school\n\n\n\n\n\nStudents rated their confidence on knowledge and skills related to the activity both before the pre-lab and after completing the lab. Confidence was rated on a scale from 1-5. Self-reported learning gains have poor validity, but we did not very large increases in student confidence for knowledge and skills related to the activity.\n\n\n\n\n\n\n\n\n\n\n\n\nConfidence item\neffect_size\nLL\nUL\nSE\ndf\n\n\n\n\nRNA-seq principles\n1.16\n0.88\n1.44\n0.14\n222.79\n\n\nNeuroinflammation in AD\n1.22\n0.93\n1.51\n0.15\n223.73\n\n\nCell type classification in AD\n1.86\n1.60\n2.13\n0.13\n216.89\n\n\nUMAP interpretation\n2.83\n2.61\n3.06\n0.11\n199.15\n\n\nCellxGene navigation\n2.95\n2.76\n3.14\n0.10\n212.59\n\n\nQualitative gene expression comparison\n2.62\n2.39\n2.86\n0.12\n224.95\n\n\nCellxGene filtering\n2.82\n2.61\n3.02\n0.10\n217.11\n\n\nDifferential gene expression\n2.07\n1.81\n2.33\n0.13\n222.93\n\n\nCreate figures\n1.88\n1.62\n2.14\n0.13\n211.24\n\n\nGene function interpretation\n1.84\n1.54\n2.13\n0.15\n226.00\n\n\nCommunicate findings\n1.88\n1.63\n2.14\n0.13\n225.21\n\n\n\nBreaking this down by school showed roughly similar levels of confidence gains across contexts:\n\n\n\nIncrease in chance of highest confidence by item and school\n\n\n\n\n\nFinally, students gave feedback on different aspects of the activity (1-5 rating scale):\n\n\n\nStudent feedback on aspects of the lab"
+  },
+  {
+    "objectID": "assessment.html#objective-knowledge",
+    "href": "assessment.html#objective-knowledge",
+    "title": "Assessment",
+    "section": "",
+    "text": "Students completed short, multiple-choice measures of objective knowledge before the pre-lab and at the end of the complete lab. Items on the objective knowledge test were matched to learning objectives and skills for the activity (items are listed below).\nExamining scores overall showed large gains in knowledge related to the learning objectives:\n\n\n\nChanges in Objective Knowledge Scores\n\n\n\n\n\nEffect\nEffect Size\nLL\nUL\nSE\nN\n\n\n\n\nPost\n0.76\n0.72\n0.81\n0.02\n130\n\n\nPre\n0.56\n0.52\n0.60\n0.02\n91\n\n\nPost-Pre\n0.19\n0.13\n0.26\n0.03\n\n\n\n\nIn standardized terms: dunbiased = 0.85 95% CI [0.57, 1.13]\nBreaking this down by school shows some diversity in student learning, with students completing the activity in an online setting (Dominican University) showing the smallest gains:\n\n\n\nObjective learning gains by school"
+  },
+  {
+    "objectID": "assessment.html#confidence-ratings",
+    "href": "assessment.html#confidence-ratings",
+    "title": "Assessment",
+    "section": "",
+    "text": "Students rated their confidence on knowledge and skills related to the activity both before the pre-lab and after completing the lab. Confidence was rated on a scale from 1-5. Self-reported learning gains have poor validity, but we did not very large increases in student confidence for knowledge and skills related to the activity.\n\n\n\n\n\n\n\n\n\n\n\n\nConfidence item\neffect_size\nLL\nUL\nSE\ndf\n\n\n\n\nRNA-seq principles\n1.16\n0.88\n1.44\n0.14\n222.79\n\n\nNeuroinflammation in AD\n1.22\n0.93\n1.51\n0.15\n223.73\n\n\nCell type classification in AD\n1.86\n1.60\n2.13\n0.13\n216.89\n\n\nUMAP interpretation\n2.83\n2.61\n3.06\n0.11\n199.15\n\n\nCellxGene navigation\n2.95\n2.76\n3.14\n0.10\n212.59\n\n\nQualitative gene expression comparison\n2.62\n2.39\n2.86\n0.12\n224.95\n\n\nCellxGene filtering\n2.82\n2.61\n3.02\n0.10\n217.11\n\n\nDifferential gene expression\n2.07\n1.81\n2.33\n0.13\n222.93\n\n\nCreate figures\n1.88\n1.62\n2.14\n0.13\n211.24\n\n\nGene function interpretation\n1.84\n1.54\n2.13\n0.15\n226.00\n\n\nCommunicate findings\n1.88\n1.63\n2.14\n0.13\n225.21\n\n\n\nBreaking this down by school showed roughly similar levels of confidence gains across contexts:\n\n\n\nIncrease in chance of highest confidence by item and school"
+  },
+  {
+    "objectID": "assessment.html#feedback",
+    "href": "assessment.html#feedback",
+    "title": "Assessment",
+    "section": "",
+    "text": "Finally, students gave feedback on different aspects of the activity (1-5 rating scale):\n\n\n\nStudent feedback on aspects of the lab"
+  },
+  {
+    "objectID": "assessment.html#content",
+    "href": "assessment.html#content",
+    "title": "Assessment",
+    "section": "Content:",
+    "text": "Content:\n\nExplain the principles of RNA-seq, including how transcriptomic data is generated and what it represents at the single-cell level.\nDescribe the role of neuroinflammation in Alzheimer’s Disease.\nDescribe how RNA-seq data is used to identify and classify cell types, especially in the context of neurodegenerative disease like Alzheimer’s.\nInterpret the purpose and function of UMAP (Uniform Manifold Approximation and Projection) as a dimensionality reduction tool for transcriptomic data."
+  },
+  {
+    "objectID": "assessment.html#skills",
+    "href": "assessment.html#skills",
+    "title": "Assessment",
+    "section": "Skills:",
+    "text": "Skills:\n\nUse the Cell×Gene explorer to navigate and interact with SEA-AD single-cell RNA-seq datasets.\nPerform qualitative comparisons of gene expression levels across cell types and/or brain regions using UMAP plots.\nFilter cells within Cell×Gene explorer based on gene expression, biomarker presence, and demographic variables (e.g., age, sex, pathology score).\nIdentify differentially expressed genes by comparing groups of interest (e.g., disease state or sex).\nCreate a qualitative figure that demonstrates changes in gene expression across a group of interest.\nInterpret the biological function of a gene by using external tools such as the NIH Gene database (GeneCards, NCBI Gene, etc.).\nCommunicate transcriptomic findings through figures (e.g., UMAPs) and summaries that integrate data interpretation with background literature."
+  },
+  {
+    "objectID": "assessment.html#condifence-ratings-can-use-pre-post",
+    "href": "assessment.html#condifence-ratings-can-use-pre-post",
+    "title": "Assessment",
+    "section": "Condifence Ratings; Can use Pre & Post",
+    "text": "Condifence Ratings; Can use Pre & Post\nOn a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Strongly Disagree\nI feel confident in my ability to:\n\nExplain the principles of RNA-seq, including how transcriptomic data is generated and what it represents at the single-cell level.\nDescribe the role of neuroinflammation in Alzheimer’s Disease.\nDescribe how RNA-seq data is used to identify and classify cell types, especially in the context of neurodegenerative disease like Alzheimer’s.\nInterpret the purpose and function of UMAP (Uniform Manifold Approximation and Projection) as a dimensionality reduction tool for transcriptomic data.\nUse the Cell×Gene explorer to navigate and interact with SEA-AD single-cell RNA-seq datasets.\nPerform qualitative comparisons of gene expression levels across cell types and/or brain regions using UMAP plots.\nFilter cells within Cell×Gene explorer based on gene expression, biomarker presence, and demographic variables (e.g., age, sex, pathology score).\nIdentify differentially expressed genes by comparing groups of interest (e.g., disease state or sex).\nCreate a qualitative figure that demonstrates changes in gene expression across a group of interest.\nInterpret the biological function of a gene by using external tools such as the NIH Gene database (GeneCards, NCBI Gene, etc.).\nCommunicate transcriptomic findings through figures (e.g., UMAPs) and summaries that integrate data interpretation with background literature."
+  },
+  {
+    "objectID": "assessment.html#feedback-post-only",
+    "href": "assessment.html#feedback-post-only",
+    "title": "Assessment",
+    "section": "Feedback, Post Only",
+    "text": "Feedback, Post Only\nOn a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Strongly Disagree\n\nI enjoyed learning about gene expression changes and neuroinflammation in Alzheimer’s Disease in this laboratory format.\nI would have preferred a lecture about gene expression changes and neuroinflammation in Alzheimer’s Disease rather than reading and working through this laboratory assignment.\nI gained more knowledge about gene expression changes and neuroinflammation in Alzheimer’s Disease from this laboratory format than what I would have learned from a textbook and lecture.\nI enjoyed using the CellxGene explorer to interact with SEA-AD datasets\nI enjoyed performing qualitative comparisons of gene expression levels and creating figures using UMAP plots\nThis laboratory assignment should be used again for students to learn about gene expression changes and neuroinflammation in Alzheimer’s Disease.\nWorking with the SEA-AD dataset helped me understand how large-scale, real-world data can be used to study Alzheimer’s disease\nI am interested in asking my own research questions using the SEA-AD dataset.\nThis laboratory experience increased my interest in exploring my own research questions with open datasets.\nI see value in using open datasets like SEA-AD in my future coursework or research."
+  },
+  {
+    "objectID": "assessment.html#content-lo1",
+    "href": "assessment.html#content-lo1",
+    "title": "Assessment",
+    "section": "Content LO1:",
+    "text": "Content LO1:\n\nWhat does transcriptomic data tell us?\n\nA. the exact age of a cell.\nB. the genes a cell expresses and the quantity of each.\nC. the DNA sequence of each gene.\nD. the amount of protein present in a cell.\n\nHow is transcriptomic data generated?\n\nA. Sequencing mRNAs transcripts in a nucleus and counting the number of transcripts*\nB. Purifying the proteins in a cell and separating them by size\nC. Extracting the DNA from a cell and sequencing it\nD. Expressing foreign genes in a cell and measuring amount of protein produced"
+  },
+  {
+    "objectID": "assessment.html#content-lo2",
+    "href": "assessment.html#content-lo2",
+    "title": "Assessment",
+    "section": "Content LO2:",
+    "text": "Content LO2:\n\nMicroglia are thought to contribute to the pathology of Alzheimer’s disease by:\nA. Engulfing healthy neurons\nB. Producing amyloid plaques\nC. Promoting neuroinflammation\nD. Creating neurofibrillary tangles\nImagine you are designing a study on neuroinflammation in Alzheimer’s disease using RNA-seq. Why would it be important to compare donors with Alzheimer’s to healthy donors of a similar age?\nA. To ensure that differences in inflammatory gene expression are not simply due to normal aging of the immune system.\nB. To control for generational or cohort effects that might influence baseline immune gene activity.\nC. To reduce the influence of other age-related factors, such as changes in microglial activation, that could confound results.\nD. All of the above.\nWhat is the biological function of the PTPRG gene?\nA. It is a protein found in the cytosol that regulates glycolisis\nB. It is a protein in the endoplasmic reticulum that regulates protein folding\nC. It is a protein phosphotase found int the plasma membrane that has a variety of cellular functions\nD. It is a mitochondrial protein that produces ATP"
+  },
+  {
+    "objectID": "assessment.html#content-lo3",
+    "href": "assessment.html#content-lo3",
+    "title": "Assessment",
+    "section": "Content LO3:",
+    "text": "Content LO3:\n\nIn single cell RNA sequencing experiments, how are different cell types classified?\n\nA. Based on protein levels\nB. Based on the number of gene mutations detected\nC. Based on morphology\nD. Based on similar mRNA expression patterns\n\nWhich of the following best describes what single-cell RNA-seq data represents?\n\nA. The complete DNA sequence of individual cells, including mutations.\nB. The dynamic profile of proteins expressed by a cell at a given time.\nC. The relative abundance of transcripts present in a single cell, reflecting gene activity\nD. The epigenetic modifications that regulate gene expression in each cell."
+  },
+  {
+    "objectID": "assessment.html#content-lo3-andor-skills-lo6",
+    "href": "assessment.html#content-lo3-andor-skills-lo6",
+    "title": "Assessment",
+    "section": "Content LO3 and/or Skills LO6:",
+    "text": "Content LO3 and/or Skills LO6:\n\nYou are comparing microglial gene expression between Alzheimer’s and normal donors in the SEA-AD dataset. Which result would best suggest disease-specific dysregulation?\n\nA. A gene highly expressed in both AD and normal microglia.\nB. A gene showing no difference in expression across cell types.\nC. A set of genes consistently upregulated in AD microglia compared to normal microglia.\nD. A single transcript detected in only one AD cell but absent in all others.\n\nA student filters SEA-AD microglia for APOE4 carriers vs. non-carriers. Which interpretation would be most biologically sound?\n\nA. APOE4 is irrelevant to gene expression and therefore cannot explain any differences found.\nB. Any gene expression changes must reflect APOE4 status directly, regardless of disease condition.\nC. All differentially expressed genes are products of single-cell dropout events.\nD. Differentially expressed genes may reflect APOE4 associated pathways, but interpretation should consider AD status and other demographic variables."
+  },
+  {
+    "objectID": "assessment.html#content-lo4",
+    "href": "assessment.html#content-lo4",
+    "title": "Assessment",
+    "section": "Content LO4:",
+    "text": "Content LO4:\n\nIn UMAP plots, a cluster represents:\n\nA. A group of genes with similar expression levels\nB. A group of cells with similar expression patterns\nC. A group of patients with similar phenotypes\nD. A group of proteins with similar molecular weights\n\nWhen interpreting differentially expressed genes from CellxGene Explorer, what is the most important consideration?\n\nA. Genes should be interpreted in isolation without reference to biological pathways.\nB. Technical confounds such as batch effects and donor demographics can influence results.\nC. Every gene identified is biologically relevant and directly contributes to pathology.\nD. The number of reads per gene is irrelevant to statistical reliability.\n\nWhich of the following statements best explains what UMAP, and dimensionality reduction more broadly, is doing?\n\nA. UMAP selects the two most important genes and plots the expression levels of those genes against each other\nB. UMAP compresses high-dimensional data into fewer dimensions while preserving as much of the structure of the data (relationships) as possible\nC. UMAP discards all but two dimensions of the original dataset, so clusters represent only a small fraction of the biological variability\nD. UMAP creates random clusters in 2D space without reference to the high-dimensional input"
+  },
+  {
+    "objectID": "assessment.html#content-lo4-andor-skills-lo911",
+    "href": "assessment.html#content-lo4-andor-skills-lo911",
+    "title": "Assessment",
+    "section": "Content LO4 and/or Skills LO9/11:",
+    "text": "Content LO4 and/or Skills LO9/11:\n\nA well-designed UMAP figure in a report should include:\n\nA. Raw sequencing reads aligned to the genome\nB. Clearly labeled axes that represent transcript counts per gene\nC. Color-coded clusters or overlays indicating the comparison of interest\nD. A bar graph showing the total number of genes expressed in each cell"
+  },
+  {
+    "objectID": "assessment.html#skills-lo5",
+    "href": "assessment.html#skills-lo5",
+    "title": "Assessment",
+    "section": "Skills LO5:",
+    "text": "Skills LO5:\n\nIn the Seattle Alzheimer’s Brain Cell Atlas (SEA-AD), you can explore:\n\nA. How the abundance of amyloid plaques correlates with cognitive decline\nB. The gene mutations associated with Alzheimer’s disease\nC. The effectiveness of dementia drugs\nD. Gene expression differences between Alzheimer’s and unaffected donors"
+  },
+  {
     "objectID": "extensions.html",
     "href": "extensions.html",
     "title": "Going Further: Optional Further Directions",
@@ -40,143 +200,148 @@
     ]
   },
   {
-    "objectID": "assessment.html",
-    "href": "assessment.html",
-    "title": "Assessment",
+    "objectID": "items.html",
+    "href": "items.html",
+    "title": "Items",
     "section": "",
-    "text": "Overall, completing the activity produced large gains in knowledge related to the learning objectives:\n\n\n\nEffect\nEffect Size\nLL\nUL\nSE\nN\n\n\n\n\nPost\n0.76\n0.72\n0.81\n0.02\n130\n\n\nPre\n0.56\n0.52\n0.60\n0.02\n91\n\n\nPost-Pre\n0.19\n0.13\n0.26\n0.03\n\n\n\n\nIn standardized terms: dunbiased = 0.85 95% CI [0.57, 1.13]\n\n\n\n\nChanges in Quiz Scores by Institution\n\n\n\n\n\nActivity feedback distributions by item and institution\n\n\n\n\n\nChange in probability of highest confidence by item and institution\n\n\nBelow are the learning goals/skills we defined for the activity and a set of assessment items that can be used to evaluate them. The assessment items are in three types: confidence ratings, feedback on the activity, and objective knowledge.",
+    "text": "Whiel developing this lab we iteritively refined a set of learning goals and skills (Section 1). We then used these learning goals and skills to develop objective (Section 3) and self-reported (Section 2.1) measures of learning as well as feedback items.",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
   },
   {
-    "objectID": "assessment.html#content",
-    "href": "assessment.html#content",
-    "title": "Assessment",
+    "objectID": "items.html#content",
+    "href": "items.html#content",
+    "title": "Items",
     "section": "Content:",
     "text": "Content:\n\nExplain the principles of RNA-seq, including how transcriptomic data is generated and what it represents at the single-cell level.\nDescribe the role of neuroinflammation in Alzheimer’s Disease.\nDescribe how RNA-seq data is used to identify and classify cell types, especially in the context of neurodegenerative disease like Alzheimer’s.\nInterpret the purpose and function of UMAP (Uniform Manifold Approximation and Projection) as a dimensionality reduction tool for transcriptomic data.",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
   },
   {
-    "objectID": "assessment.html#skills",
-    "href": "assessment.html#skills",
-    "title": "Assessment",
+    "objectID": "items.html#skills",
+    "href": "items.html#skills",
+    "title": "Items",
     "section": "Skills:",
     "text": "Skills:\n\nUse the Cell×Gene explorer to navigate and interact with SEA-AD single-cell RNA-seq datasets.\nPerform qualitative comparisons of gene expression levels across cell types and/or brain regions using UMAP plots.\nFilter cells within Cell×Gene explorer based on gene expression, biomarker presence, and demographic variables (e.g., age, sex, pathology score).\nIdentify differentially expressed genes by comparing groups of interest (e.g., disease state or sex).\nCreate a qualitative figure that demonstrates changes in gene expression across a group of interest.\nInterpret the biological function of a gene by using external tools such as the NIH Gene database (GeneCards, NCBI Gene, etc.).\nCommunicate transcriptomic findings through figures (e.g., UMAPs) and summaries that integrate data interpretation with background literature.",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
   },
   {
-    "objectID": "assessment.html#condifence-ratings-can-use-pre-post",
-    "href": "assessment.html#condifence-ratings-can-use-pre-post",
-    "title": "Assessment",
-    "section": "Condifence Ratings; Can use Pre & Post",
-    "text": "Condifence Ratings; Can use Pre & Post\nOn a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Strongly Disagree\nI feel confident in my ability to:\n\nExplain the principles of RNA-seq, including how transcriptomic data is generated and what it represents at the single-cell level.\nDescribe the role of neuroinflammation in Alzheimer’s Disease.\nDescribe how RNA-seq data is used to identify and classify cell types, especially in the context of neurodegenerative disease like Alzheimer’s.\nInterpret the purpose and function of UMAP (Uniform Manifold Approximation and Projection) as a dimensionality reduction tool for transcriptomic data.\nUse the Cell×Gene explorer to navigate and interact with SEA-AD single-cell RNA-seq datasets.\nPerform qualitative comparisons of gene expression levels across cell types and/or brain regions using UMAP plots.\nFilter cells within Cell×Gene explorer based on gene expression, biomarker presence, and demographic variables (e.g., age, sex, pathology score).\nIdentify differentially expressed genes by comparing groups of interest (e.g., disease state or sex).\nCreate a qualitative figure that demonstrates changes in gene expression across a group of interest.\nInterpret the biological function of a gene by using external tools such as the NIH Gene database (GeneCards, NCBI Gene, etc.).\nCommunicate transcriptomic findings through figures (e.g., UMAPs) and summaries that integrate data interpretation with background literature.",
+    "objectID": "items.html#sec-confidence-ratings-u",
+    "href": "items.html#sec-confidence-ratings-u",
+    "title": "Items",
+    "section": "Confidence Ratings; Used Pre- and Post-Lab",
+    "text": "Confidence Ratings; Used Pre- and Post-Lab\nOn a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Strongly Disagree\nI feel confident in my ability to:\n\nExplain the principles of RNA-seq, including how transcriptomic data is generated and what it represents at the single-cell level.\nDescribe the role of neuroinflammation in Alzheimer’s Disease.\nDescribe how RNA-seq data is used to identify and classify cell types, especially in the context of neurodegenerative disease like Alzheimer’s.\nInterpret the purpose and function of UMAP (Uniform Manifold Approximation and Projection) as a dimensionality reduction tool for transcriptomic data.\nUse the Cell×Gene explorer to navigate and interact with SEA-AD single-cell RNA-seq datasets.\nPerform qualitative comparisons of gene expression levels across cell types and/or brain regions using UMAP plots.\nFilter cells within Cell×Gene explorer based on gene expression, biomarker presence, and demographic variables (e.g., age, sex, pathology score).\nIdentify differentially expressed genes by comparing groups of interest (e.g., disease state or sex).\nCreate a qualitative figure that demonstrates changes in gene expression across a group of interest.\nInterpret the biological function of a gene by using external tools such as the NIH Gene database (GeneCards, NCBI Gene, etc.).\nCommunicate transcriptomic findings through figures (e.g., UMAPs) and summaries that integrate data interpretation with background literature.",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
   },
   {
-    "objectID": "assessment.html#feedback-post-only",
-    "href": "assessment.html#feedback-post-only",
-    "title": "Assessment",
+    "objectID": "items.html#sec-feedback-post-only",
+    "href": "items.html#sec-feedback-post-only",
+    "title": "Items",
     "section": "Feedback, Post Only",
     "text": "Feedback, Post Only\nOn a scale of Strongly Agree, Agree, Neither Agree Nor Disagree, Disagree, Strongly Disagree\n\nI enjoyed learning about gene expression changes and neuroinflammation in Alzheimer’s Disease in this laboratory format.\nI would have preferred a lecture about gene expression changes and neuroinflammation in Alzheimer’s Disease rather than reading and working through this laboratory assignment.\nI gained more knowledge about gene expression changes and neuroinflammation in Alzheimer’s Disease from this laboratory format than what I would have learned from a textbook and lecture.\nI enjoyed using the CellxGene explorer to interact with SEA-AD datasets\nI enjoyed performing qualitative comparisons of gene expression levels and creating figures using UMAP plots\nThis laboratory assignment should be used again for students to learn about gene expression changes and neuroinflammation in Alzheimer’s Disease.\nWorking with the SEA-AD dataset helped me understand how large-scale, real-world data can be used to study Alzheimer’s disease\nI am interested in asking my own research questions using the SEA-AD dataset.\nThis laboratory experience increased my interest in exploring my own research questions with open datasets.\nI see value in using open datasets like SEA-AD in my future coursework or research.",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
   },
   {
-    "objectID": "assessment.html#content-lo1",
-    "href": "assessment.html#content-lo1",
-    "title": "Assessment",
+    "objectID": "items.html#content-lo1",
+    "href": "items.html#content-lo1",
+    "title": "Items",
     "section": "Content LO1:",
     "text": "Content LO1:\n\nWhat does transcriptomic data tell us?\n\nA. the exact age of a cell.\nB. the genes a cell expresses and the quantity of each.\nC. the DNA sequence of each gene.\nD. the amount of protein present in a cell.\n\nHow is transcriptomic data generated?\n\nA. Sequencing mRNAs transcripts in a nucleus and counting the number of transcripts*\nB. Purifying the proteins in a cell and separating them by size\nC. Extracting the DNA from a cell and sequencing it\nD. Expressing foreign genes in a cell and measuring amount of protein produced",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
   },
   {
-    "objectID": "assessment.html#content-lo2",
-    "href": "assessment.html#content-lo2",
-    "title": "Assessment",
+    "objectID": "items.html#content-lo2",
+    "href": "items.html#content-lo2",
+    "title": "Items",
     "section": "Content LO2:",
     "text": "Content LO2:\n\nMicroglia are thought to contribute to the pathology of Alzheimer’s disease by:\nA. Engulfing healthy neurons\nB. Producing amyloid plaques\nC. Promoting neuroinflammation\nD. Creating neurofibrillary tangles\nImagine you are designing a study on neuroinflammation in Alzheimer’s disease using RNA-seq. Why would it be important to compare donors with Alzheimer’s to healthy donors of a similar age?\nA. To ensure that differences in inflammatory gene expression are not simply due to normal aging of the immune system.\nB. To control for generational or cohort effects that might influence baseline immune gene activity.\nC. To reduce the influence of other age-related factors, such as changes in microglial activation, that could confound results.\nD. All of the above.\nWhat is the biological function of the PTPRG gene?\nA. It is a protein found in the cytosol that regulates glycolisis\nB. It is a protein in the endoplasmic reticulum that regulates protein folding\nC. It is a protein phosphotase found int the plasma membrane that has a variety of cellular functions\nD. It is a mitochondrial protein that produces ATP",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
   },
   {
-    "objectID": "assessment.html#content-lo3",
-    "href": "assessment.html#content-lo3",
-    "title": "Assessment",
+    "objectID": "items.html#content-lo3",
+    "href": "items.html#content-lo3",
+    "title": "Items",
     "section": "Content LO3:",
     "text": "Content LO3:\n\nIn single cell RNA sequencing experiments, how are different cell types classified?\n\nA. Based on protein levels\nB. Based on the number of gene mutations detected\nC. Based on morphology\nD. Based on similar mRNA expression patterns\n\nWhich of the following best describes what single-cell RNA-seq data represents?\n\nA. The complete DNA sequence of individual cells, including mutations.\nB. The dynamic profile of proteins expressed by a cell at a given time.\nC. The relative abundance of transcripts present in a single cell, reflecting gene activity\nD. The epigenetic modifications that regulate gene expression in each cell.",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
   },
   {
-    "objectID": "assessment.html#content-lo3-andor-skills-lo6",
-    "href": "assessment.html#content-lo3-andor-skills-lo6",
-    "title": "Assessment",
+    "objectID": "items.html#content-lo3-andor-skills-lo6",
+    "href": "items.html#content-lo3-andor-skills-lo6",
+    "title": "Items",
     "section": "Content LO3 and/or Skills LO6:",
     "text": "Content LO3 and/or Skills LO6:\n\nYou are comparing microglial gene expression between Alzheimer’s and normal donors in the SEA-AD dataset. Which result would best suggest disease-specific dysregulation?\n\nA. A gene highly expressed in both AD and normal microglia.\nB. A gene showing no difference in expression across cell types.\nC. A set of genes consistently upregulated in AD microglia compared to normal microglia.\nD. A single transcript detected in only one AD cell but absent in all others.\n\nA student filters SEA-AD microglia for APOE4 carriers vs. non-carriers. Which interpretation would be most biologically sound?\n\nA. APOE4 is irrelevant to gene expression and therefore cannot explain any differences found.\nB. Any gene expression changes must reflect APOE4 status directly, regardless of disease condition.\nC. All differentially expressed genes are products of single-cell dropout events.\nD. Differentially expressed genes may reflect APOE4 associated pathways, but interpretation should consider AD status and other demographic variables.",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
   },
   {
-    "objectID": "assessment.html#content-lo4",
-    "href": "assessment.html#content-lo4",
-    "title": "Assessment",
+    "objectID": "items.html#content-lo4",
+    "href": "items.html#content-lo4",
+    "title": "Items",
     "section": "Content LO4:",
     "text": "Content LO4:\n\nIn UMAP plots, a cluster represents:\n\nA. A group of genes with similar expression levels\nB. A group of cells with similar expression patterns\nC. A group of patients with similar phenotypes\nD. A group of proteins with similar molecular weights\n\nWhen interpreting differentially expressed genes from CellxGene Explorer, what is the most important consideration?\n\nA. Genes should be interpreted in isolation without reference to biological pathways.\nB. Technical confounds such as batch effects and donor demographics can influence results.\nC. Every gene identified is biologically relevant and directly contributes to pathology.\nD. The number of reads per gene is irrelevant to statistical reliability.\n\nWhich of the following statements best explains what UMAP, and dimensionality reduction more broadly, is doing?\n\nA. UMAP selects the two most important genes and plots the expression levels of those genes against each other\nB. UMAP compresses high-dimensional data into fewer dimensions while preserving as much of the structure of the data (relationships) as possible\nC. UMAP discards all but two dimensions of the original dataset, so clusters represent only a small fraction of the biological variability\nD. UMAP creates random clusters in 2D space without reference to the high-dimensional input",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
   },
   {
-    "objectID": "assessment.html#content-lo4-andor-skills-lo911",
-    "href": "assessment.html#content-lo4-andor-skills-lo911",
-    "title": "Assessment",
+    "objectID": "items.html#content-lo4-andor-skills-lo911",
+    "href": "items.html#content-lo4-andor-skills-lo911",
+    "title": "Items",
     "section": "Content LO4 and/or Skills LO9/11:",
     "text": "Content LO4 and/or Skills LO9/11:\n\nA well-designed UMAP figure in a report should include:\n\nA. Raw sequencing reads aligned to the genome\nB. Clearly labeled axes that represent transcript counts per gene\nC. Color-coded clusters or overlays indicating the comparison of interest\nD. A bar graph showing the total number of genes expressed in each cell",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
   },
   {
-    "objectID": "assessment.html#skills-lo5",
-    "href": "assessment.html#skills-lo5",
-    "title": "Assessment",
+    "objectID": "items.html#skills-lo5",
+    "href": "items.html#skills-lo5",
+    "title": "Items",
     "section": "Skills LO5:",
     "text": "Skills LO5:\n\nIn the Seattle Alzheimer’s Brain Cell Atlas (SEA-AD), you can explore:\n\nA. How the abundance of amyloid plaques correlates with cognitive decline\nB. The gene mutations associated with Alzheimer’s disease\nC. The effectiveness of dementia drugs\nD. Gene expression differences between Alzheimer’s and unaffected donors",
     "crumbs": [
       "Home",
-      "Assessment"
+      "Assessment",
+      "Items"
     ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Defining Disease: Exploring Single-Cell Gene Expression Associated with Alzheimer’s Disease",
-    "section": "",
-    "text": "This is free, open source set of materials for conducting an advanced-undergraduate lab activity exploring disease states with the Seattle Alzheimer’s Disease Atlas (SEA-AD), an open-source data set created by the Allen Institute.\nThese materials were developed by: Theresa McKim (University of Nevada, Reno), Shveta Parekh (Boston College), Thomas Newpher (Duke University), and Lucinda Carnell (Central Washington University), and Bob Calin-Jageman (Dominican University) in partnership in partnership with the Developing Open Neuroscience Teaching Tools Workshop offered through the Allen Institute Summer Workshop. The development of this lab was inspired by a fantastic activity created by Madison Meuler and Kaitlyn Casimo of the Allen Institute, with several figures and portions of the pre-lab text adapted directly from their work. A big thanks to Madison and Kaitlyn for their creativity and generosity in sharing their materials! We also thank Rachel Penton, Lauren Alfiler, Jeremy Miller, and the many people at Allen who helped support this project.\nHere you will find a complete set of lab materials you can adapt for your own courses.\n\nThese pages present the lab in html format, with each page also having a pdf version you can download.\nThe github repository for this project provides these resources in Markdown format, available for you to remix and update: https://github.com/rcalinjageman/Exploring-Disease-States-with-the-SEA-AD-project\nFor use with an LMS:\n\nThis zip file is a Canvas export in Common Cartridge Formate. It should enable you to import the pre-lab and lab activity, each as a stand-alone, self-paced online activity that you can customize. Enjoy, and if you use these resources, please cite their source!\n\nOnline resources you can provide to your students\nAssessment: We provide a set of potential assessment items, both objective and self-reported, and provide Qualtrics exports you can use to collect your own assessment data here.\nCellxGene Explorer Tutorial: Can be provided to give a more detailed overview of how to navigate the CellxGene explorer: https://cellxgene.cziscience.com/docs/04__Analyze%20Public%20Data/4_1__Hosted%20Tutorials \nSupplemental videos\n\nThe Allen Institute has a short webinar about this project here: https://www.youtube.com/watch?v=QON_qTo06oM\nAnd a longer webinar here: https://www.youtube.com/watch?v=lcS3o1N22Bc"
   },
   {
     "objectID": "LICENSE-CC-BY-NC-4.0.html",

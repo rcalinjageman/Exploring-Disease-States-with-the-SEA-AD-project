@@ -1,0 +1,68 @@
+---
+title: "Data"
+---
+
+# Assessment data
+
+## Objective Knowledge
+
+Students completed short, multiple-choice measures of objective knowledge before the pre-lab and at the end of the complete lab. Items on the objective knowledge test were matched to learning objectives and skills for the activity (items are listed below).
+
+Examining scores overall showed large gains in knowledge related to the learning objectives:
+
+![Changes in Objective Knowledge Scores; Individual data, means, and 95% CIs](images/objective_overall.png){width="831"}
+
+| Effect   | Effect Size | LL   | UL   | SE   | N   |
+|----------|-------------|------|------|------|-----|
+| Post     | 0.76        | 0.72 | 0.81 | 0.02 | 130 |
+| Pre      | 0.56        | 0.52 | 0.60 | 0.02 | 91  |
+| Post-Pre | 0.19        | 0.13 | 0.26 | 0.03 |     |
+
+In standardized terms: *d*~unbiased~ = 0.85 95% CI \[0.57, 1.13\]
+
+Breaking this down by school shows some diversity in student learning, with students completing the activity in an online setting (Dominican University) showing the smallest gains:
+
+![Objective Learning Gains by School; Individual data, means, and 95% CIs](images/objective_panel.png){width="1062"}
+
+## Confidence Ratings
+
+Students rated their confidence on knowledge and skills related to the activity both before the pre-lab and after completing the lab. Confidence was rated on a scale from 1-5. Self-reported learning gains have poor validity, but we did not very large increases in student confidence for knowledge and skills related to the activity.
+
+![Gains in Confidence Ratings (Pre to Post, 1-5 scale); Dotted-line at 0 indicates no gains; Means and 95% CIs](images/confidence_gains_overall.png){width="1063"}
+
+| Confidence item                        | Effect Size |   LL |   UL |   SE |     df |
+|:---------------------------|---------:|--------:|-------:|------:|--------:|
+| RNA-seq principles                     |        1.16 | 0.88 | 1.44 | 0.14 | 222.79 |
+| Neuroinflammation in AD                |        1.22 | 0.93 | 1.51 | 0.15 | 223.73 |
+| Cell type classification in AD         |        1.86 | 1.60 | 2.13 | 0.13 | 216.89 |
+| UMAP interpretation                    |        2.83 | 2.61 | 3.06 | 0.11 | 199.15 |
+| CellxGene navigation                   |        2.95 | 2.76 | 3.14 | 0.10 | 212.59 |
+| Qualitative gene expression comparison |        2.62 | 2.39 | 2.86 | 0.12 | 224.95 |
+| CellxGene filtering                    |        2.82 | 2.61 | 3.02 | 0.10 | 217.11 |
+| Differential gene expression           |        2.07 | 1.81 | 2.33 | 0.13 | 222.93 |
+| Create figures                         |        1.88 | 1.62 | 2.14 | 0.13 | 211.24 |
+| Gene function interpretation           |        1.84 | 1.54 | 2.13 | 0.15 | 226.00 |
+| Communicate findings                   |        1.88 | 1.63 | 2.14 | 0.13 | 225.21 |
+
+Breaking this down by school showed roughly similar levels of confidence gains across contexts:
+
+![Changes in Chance of Highest Confidence by Item and School; Modeled means and CIs](images/confidence_panel.png){width="931"}
+
+## Feedback
+
+Finally, students gave feedback on different aspects of the activity (1-5 rating scale). Most students gave most aspects of the lab strong feedback. Note that lower scores on "Preferred lecture format".
+
+![Student Feedback on Aspects of the Lab; Individual data, means, and 95% CIs](images/feedback_overall.png){width="996"}
+
+| Feedback Item | Effect Size | LL | UL | SE | df |
+|:----------------------------------------------------|---------:|-----:|-----:|-----:|------:|
+| Enjoyed learning about gene expression changes in AD using this lab format | 4.30 | 4.15 | 4.46 | 0.08 | 92 |
+| Preferred lecture format on gene expression and neuroinflammation in AD | 2.84 | 2.56 | 3.11 | 0.14 | 92 |
+| Gained more knowledge than lecture or textbook | 3.74 | 3.54 | 3.94 | 0.10 | 91 |
+| Enjoyed CellxGene explorer to interact with data | 4.32 | 4.15 | 4.50 | 0.09 | 92 |
+| Enjoyed qualitative figure comparisons using UMAPs | 4.24 | 4.05 | 4.42 | 0.09 | 92 |
+| Lab activity should be used again | 4.30 | 4.14 | 4.46 | 0.08 | 92 |
+| SEA-AD helped me understand real-world data used to study AD | 4.37 | 4.19 | 4.54 | 0.09 | 92 |
+| Interested in asking own research questions in the dataset | 3.58 | 3.34 | 3.82 | 0.12 | 92 |
+| Increased interest in exploring own research questions with open datasets | 3.88 | 3.66 | 4.10 | 0.11 | 92 |
+| See value in open datasets in future coursework and research | 4.31 | 4.15 | 4.48 | 0.08 | 92 |
