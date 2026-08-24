@@ -31,7 +31,7 @@ Students rated their confidence on knowledge and skills related to the activity 
 ![](images/confidence_gains_overall.png){width="1063"}
 
 | Confidence item                        | effect_size |   LL |   UL |   SE |     df |
-|:-----------------------------|----------:|------:|-------:|-------:|-------:|
+|:--------------------|----------:|----------:|----------:|----------:|----------:|
 | RNA-seq principles                     |        1.16 | 0.88 | 1.44 | 0.14 | 222.79 |
 | Neuroinflammation in AD                |        1.22 | 0.93 | 1.51 | 0.15 | 223.73 |
 | Cell type classification in AD         |        1.86 | 1.60 | 2.13 | 0.13 | 216.89 |

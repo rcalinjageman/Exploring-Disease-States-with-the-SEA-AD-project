@@ -14,7 +14,8 @@ Here you will find a complete set of lab materials you can adapt for your own co
 
 - For use with an LMS:
 
-  - [This zip file](https://github.com/rcalinjageman/Exploring-Disease-States-with-the-SEA-AD-project/tree/main/common_cartridge) is a Canvas export in Common Cartridge Formate. It should enable you to import the pre-lab and lab activity, each as a stand-alone, self-paced online activity that you can customize. Enjoy, and if you use these resources, please cite their source!
+  - [This zip file](https://github.com/rcalinjageman/Exploring-Disease-States-with-the-SEA-AD-project/tree/main/common_cartridge) is a Canvas export in Common Cartridge Format. You can import the pre-lab and lab activity, each as a stand-alone, self-paced online activity that you can customize. Enjoy, and if you use these resources, please cite their source!
+  - Instructors can demo this activity in Canvas [here](https://dominicanu.instructure.com/courses/2691378).
 
 - Online resources you can provide to your students
 
